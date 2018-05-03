@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Anti-Spyware</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Reem+Kufi" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="style.css"> -->
+  <link rel=stylesheet type=text/css
+        href="{{ url_for('static', filename='style1.css') }}">
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+  <style>
+  div.hh {
+    background-color: #572C8C;
+    top: 0px;
+    position:fixed;
+    width: 100%;
+    z-index:100
+    }
+
+    img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;}
+
+    /* a,div{font-family:'Reem Kufi', sans-serif;} */
+    a,div{font-family:'Reem Kufi', sans-serif; font-size:20px}
+
+    div.container{
+      position:fixed;
+      top:150px;
+    }
+
+    a {font-size: 16px;}
+    </style>
+</head>
+<body>
+
+  <div class="hh">
+    <div class="row">
+    <div class="col-lg-1"></div>
+    <div class="col-lg-3">
+    <h1 style="color: #F2F2F2">Anti-Spyware</h1></div><div class="col-lg-8"></div>
+    </div>
+    <div class="row" style="height:30px"></div>
+    <div class="row">
+      <div class="col-lg-7"></div>
+      <div class="col-lg-1">
+      <a href="/" style="font-size:20px;color:#F2F2F2">Home</a></div>
+      <div class="col-lg-1"><a href="https://www1.nyc.gov/nychope/site/page/resources" style="font-size:20px;color:#F2F2F2">NYCHope</a></div>
+      <div class="col-lg-1"><a style="font-size:20px;color:#F2F2F2">&nbsp;&nbsp;&nbsp;&nbsp;About</a></div>
+      <div class="col-lg-1"><a style="font-size:20px;color:#F2F2F2">Contact</a></div>
+      <div class="col-lg-1"><a style="font-size:20px;color:#F2F2F2">FAQ</a></div>
+  </div>
+  </div>
+
+  <div class="row">
+      <div class="col-lg-3"></div>
+      <div class="col-lg-6">
+    <div class="box" style="width:600px;height:500px;margin-top:150px;position:fixed;background-color:#BDBDBD;">
+    <div class="box2" style="margin-left:25px;margin-right:auto;width:550px;height:410px;margin-top:25px;position:fixed;background-color:#F2F2F2;">
+    <p style="margin-left:100px;margin-top:50px">First Name:&nbsp;&nbsp;&nbsp;<input type="text" name="firstname"></p>
+    <p style="margin-left:100px;">Last Name:&nbsp;&nbsp;&nbsp;<input type="text" name="firstname"></p>
+    <p style="margin-left:100px;">Address:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="address" placeholder="Street Name"><p>
+    <p style="margin-left:100px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="address" placeholder="Apt. #"></p>
+    <p style="margin-left:100px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="address" placeholder="City Name">
+    <!-- <input type="text" name="address" placeholder="State" style="width:50px"> -->
+<p style="margin-left:100px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <select name="state" id="state">
+  <option value="" selected="selected">State</option>
+  <option value="AL">Alabama</option>
+  <option value="AK">Alaska</option>
+  <option value="AZ">Arizona</option>
+  <option value="AR">Arkansas</option>
+  <option value="CA">California</option>
+  <option value="CO">Colorado</option>
+  <option value="CT">Connecticut</option>
+  <option value="DE">Delaware</option>
+  <option value="DC">District Of Columbia</option>
+  <option value="FL">Florida</option>
+  <option value="GA">Georgia</option>
+  <option value="HI">Hawaii</option>
+  <option value="ID">Idaho</option>
+  <option value="IL">Illinois</option>
+  <option value="IN">Indiana</option>
+  <option value="IA">Iowa</option>
+  <option value="KS">Kansas</option>
+  <option value="KY">Kentucky</option>
+  <option value="LA">Louisiana</option>
+  <option value="ME">Maine</option>
+  <option value="MD">Maryland</option>
+  <option value="MA">Massachusetts</option>
+  <option value="MI">Michigan</option>
+  <option value="MN">Minnesota</option>
+  <option value="MS">Mississippi</option>
+  <option value="MO">Missouri</option>
+  <option value="MT">Montana</option>
+  <option value="NE">Nebraska</option>
+  <option value="NV">Nevada</option>
+  <option value="NH">New Hampshire</option>
+  <option value="NJ">New Jersey</option>
+  <option value="NM">New Mexico</option>
+  <option value="NY">New York</option>
+  <option value="NC">North Carolina</option>
+  <option value="ND">North Dakota</option>
+  <option value="OH">Ohio</option>
+  <option value="OK">Oklahoma</option>
+  <option value="OR">Oregon</option>
+  <option value="PA">Pennsylvania</option>
+  <option value="RI">Rhode Island</option>
+  <option value="SC">South Carolina</option>
+  <option value="SD">South Dakota</option>
+  <option value="TN">Tennessee</option>
+  <option value="TX">Texas</option>
+  <option value="UT">Utah</option>
+  <option value="VT">Vermont</option>
+  <option value="VA">Virginia</option>
+  <option value="WA">Washington</option>
+  <option value="WV">West Virginia</option>
+  <option value="WI">Wisconsin</option>
+  <option value="WY">Wyoming</option>
+</select>
+
+    <input type="text" name="address" placeholder="Zip" style="width:65px"></p>
+    <p style="margin-left:100px;">Phone:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="phone"></p>
+
+
+           <div class="col-lg-3"></div>
+           </div>
+           <p style="margin-top:450px">
+               <a href='/disclaimer' class='button' style="margin-left:25px">BACK</a>
+               <a href='/confirm' class='button' style="margin-left:368px">SUBMIT</a>
+           </p>
+           </div>
+         </div>
+
+<!-- <div class="container">
+
+    <div style="text-align:center">
+    <form action="confirm.html">
+    First Name:
+    <input type="text" name="firstname"><br>
+    Last Name:&nbsp;&nbsp;&nbsp;
+    <input type="text" name="lastname"><br>
+   Address:
+    <input type="text" name="address"><br>
+    Phone:
+    <input type="text" name="lastname">
+    <br><br>
+
+    <a href='disclaimer.html' class='button'>BACK</a>
+    <a href='confirm.html' class='button'>CONTINUE</a>
+
+</div>
+</div> -->
+</div>
+
+</body>
+</html>

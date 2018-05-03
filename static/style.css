@@ -1,0 +1,48 @@
+input[type=radio] {
+    margin: 2px;
+}
+
+#applist tr td a {
+    /* color: unset;*/
+}
+a.appid {
+    color: unset;
+}
+
+.button{
+background:    #f2f2f2;
+border-radius: 0px;
+box-shadow:    0 1px #cccccc;
+padding:       8px 20px;
+color:         #6a34ad;
+display:       inline-block;
+font:          normal 700 16px/1 "Reem Kufi", sans-serif;
+text-align:    center;
+text-shadow:   none;
+}
+
+.button1{
+background:    #f2f2f2;
+border-radius: 0px;
+box-shadow:    0 1px #cccccc;
+padding:       8px 28px;
+color:         #6a34ad;
+display:       inline-block;
+font:          regular 600 30px/1 "Reem Kufi", sans-serif; #px doesn't work
+text-align:    center;
+text-shadow:   none;
+}
+
+.button2{
+background:    #f2f2f2;
+margin-left:auto;
+margin-right:auto;
+border-radius: 0px;
+box-shadow:    0 1px #cccccc;
+padding:       16px 48px;
+color:         #6a34ad;
+display:       inline-block;
+font:          normal 200 24px/1 "Reem Kufi", sans-serif; #px doesn't work
+text-align:    center;
+text-shadow:   none;
+}

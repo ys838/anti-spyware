@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Anti-Spyware</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Reem+Kufi" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="style.css"> -->
+  <link rel=stylesheet type=text/css
+        href="{{ url_for('static', filename='style1.css') }}">
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+  <style>
+  div.hh {
+    background-color: #572C8C;
+    top: 0px;
+    position:fixed;
+    width: 100%;
+    z-index:100
+    }
+
+    img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;}
+
+    a,div{font-family:'Reem Kufi', sans-serif;}
+
+    div.container{
+      position:fixed;
+      top:150px;
+    }
+
+    a {font-size: 16px;}
+    </style>
+</head>
+<body>
+
+  <div class="hh">
+    <div class="row">
+    <div class="col-lg-1"></div>
+    <div class="col-lg-3">
+    <h1 style="color: #F2F2F2">Anti-Spyware</h1></div><div class="col-lg-8"></div>
+    </div>
+    <div class="row" style="height:30px"></div>
+    <div class="row">
+      <div class="col-lg-7"></div>
+      <div class="col-lg-1">
+      <a href="/" style="font-size:20px;color:#F2F2F2">Home</a></div>
+      <div class="col-lg-1"><a href="https://www1.nyc.gov/nychope/site/page/resources" style="font-size:20px;color:#F2F2F2">NYCHope</a></div>
+      <div class="col-lg-1"><a style="font-size:20px;color:#F2F2F2">&nbsp;&nbsp;&nbsp;&nbsp;About</a></div>
+      <div class="col-lg-1"><a style="font-size:20px;color:#F2F2F2">Contact</a></div>
+      <div class="col-lg-1"><a style="font-size:20px;color:#F2F2F2">FAQ</a></div>
+  </div>
+  </div>
+
+
+<div class="container">
+
+    <!-- <div class="col-lg-4"></div> -->
+
+  <!-- <div id="modes">
+    <a href="disclaimer.html"><img style="height:60px;" src="newclient.png" id="button1"></a><br><br>
+    <a href="mode2.html"><img style="height:60px;" src="exist.png" id="button2"></a><br><br>
+    <a href="scan.html"><img style="height:60px;" src="guestmode.png" id="button3"></a></div>
+    <div class="col-lg-4"></div> -->
+
+<div id ="modes">
+<div style="text-align:center;margin-left:auto;margin-right:auto">
+<!-- <form action="disclaimer.html"> -->
+<br><br><br>
+  <!-- <input type="submit" value="New Client"/> -->
+  <a href='/disclaimer' class='button2'>NEW CLIENT</a>
+<!-- </form> -->
+<br><br>
+
+<a href='db.html' class='button2'>EXISTING CLIENTS</a>
+<!-- <form action="mode2.html">
+
+  <input type="submit" value="Existing Client"/>
+</form> -->
+<br>
+<br>
+<a href='scan.html' class='button2'>GUEST MODE</a>
+<!-- <form action="scan.html">
+
+  <input type="submit" value="Guest Mode"/>
+</form> -->
+<br>
+</div>
+</div>
+
+
+
+
+</body>
+</html>

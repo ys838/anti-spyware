@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Anti-Spyware</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!-- <link rel="stylesheet" href="style.css"> -->
+  <link rel=stylesheet type=text/css
+        href="{{ url_for('static', filename='style1.css') }}">
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+  <link href="https://fonts.googleapis.com/css?family=Reem+Kufi" rel="stylesheet">
+  <style>
+  div.hh {
+    background-color: #572C8C;
+    top: 0px;
+    position:fixed;
+    width: 100%;
+    z-index:100
+    }
+
+    a,div{font-family:'Reem Kufi', sans-serif; font-size:20px}
+
+    div.container{
+      position:fixed;
+      top:150px;
+    }
+
+    a {font-size: 16px;}
+    </style>
+</head>
+<body>
+
+<div class="hh">
+  <div class="row">
+  <div class="col-lg-1"></div>
+  <div class="col-lg-3">
+  <h1 style="color: #F2F2F2">Anti-Spyware</h1></div><div class="col-lg-8"></div>
+  </div>
+  <div class="row" style="height:30px"></div>
+  <div class="row">
+    <div class="col-lg-7"></div>
+    <div class="col-lg-1">
+    <a href="index.html" style="font-size:20px;color:#F2F2F2">Home</a></div>
+    <div class="col-lg-1"><a href="https://www1.nyc.gov/nychope/site/page/resources" style="font-size:20px;color:#F2F2F2">NYCHope</a></div>
+    <div class="col-lg-1"><a href="https://drive.google.com/open?id=1xdi7ogAViLichPw_92Y9ulC3MqfvDQoN" style="font-size:20px;color:#F2F2F2">&nbsp;&nbsp;&nbsp;&nbsp;About</a></div>
+    <div class="col-lg-1"><a style="font-size:20px;color:#F2F2F2">Contact</a></div>
+    <div class="col-lg-1"><a style="font-size:20px;color:#F2F2F2">FAQ</a></div>
+</div>
+</div>
+
+
+<div class="container">
+  <div  style="height:30px"></div>
+  <br>
+<br>
+  <div style="text-align:center">
+  <form action="mode.html">
+    Username:
+    <input type="text" name="firstname" id="username" style="background-color:#FFFCFC;display:inline-block;box-shadow:0 1px #cccccc;"><p></p>
+    Password:&nbsp;&nbsp;
+    <input type="password" name="lastname" id="pwd" style="background-color:#FFFCFC;display:inline-block;box-shadow:0 1px #cccccc;">
+    <br><p></p>
+    <div style="font-size:14px">
+    <input type="checkbox" id="remember">&nbsp;Remember Me</div><br>
+  <a href='' id="signin" class='button' onclick=myFunc()>SIGN IN</a>
+
+
+  <br><br>
+
+
+
+  <!-- <input type="submit" value="Sign In"><br> -->
+  <!--<div id="submit1"><a href="mode.html"><img style="height:30px;" src="signin.png" id="signin_button"></a></div>-->
+  <a>Forget Your Password?</a><br>
+  Don't have an account? <a>Sign up here!</a>
+
+  </form></div>
+</div>
+
+<script type="text/javascript">
+function myFunc(){
+  // alert("YES, It Works...!!!");
+  var username = document.getElementById("username").value;
+  var pwd = document.getElementById("pwd").value;
+  var link = document.getElementById("signin");
+  if (username == ""){
+    alert("Please enter your Username.");
+  }
+  else if (pwd == ""){
+    alert("Please enter your Password.");
+  }
+  else if ((username == "") && (pwd == "")){
+    alert("Please enter your Username and Password.");
+  }
+  else{
+    link.setAttribute("href", "/mode");
+  }
+}
+</script>
+
+</body>
+</html>
