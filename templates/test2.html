@@ -8,7 +8,7 @@
           href="{{ url_for('static', filename='bootstrap.min.css') }}">
     <link rel=stylesheet type=text/css
           href="{{ url_for('static', filename='style.css') }}?234">
-    <!-- <script src="{{ url_for('static', filename='jquery-3.3.1.min.js') }}"></script> -->
+    <script src="{{ url_for('static', filename='jquery-3.3.1.min.js') }}"></script>
     <script src="{{ url_for('static', filename='bootstrap.min.js') }}"></script>
     <script src="{{ url_for('static', filename='myjscript.js') }}?3"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -130,26 +130,41 @@
     <div class="col-lg-6">
   <div class="box" style="width:600px;height:500px;margin-top:150px;position:fixed;background-color:#BDBDBD;">
   <div class="box2" style="margin-left:25px;margin-right:auto;width:550px;height:410px;margin-top:25px;position:fixed;background-color:#F2F2F2;">
-    <!-- <p style="margin-top:30px"> -->
-      <!-- <div align="center"> -->
-      <p style="text-align:center;margin-top:50px;font-size:22px;color:#040E3F">Please keep your phone unlocked while connecting...</p>
-      <!-- <p style="text-align:center;margin-top:150px;font-size:22px;color:#040E3F"> -->
-      <p style="text-align:center;font-size:22px;color:#040E3F">Device Status: TBD</p>
-        <p style="text-align:center;font-size:22px;color:#040E3F">Select phone system before scanning:
-          <!-- <label class="font-weight-bold lead">Scan</label> -->
-          <br><br>
-          {% for t in ["Android", "iOS", "test"] %}
-              <!-- button onclick="fetch('/scan/{{ t.lower() }}', '{{ t.lower() }}')" id="btn-android"
-                          class="btn btn-primary mx-2">{{ t }}</button -->
-              <button onclick="window.location.href='/scan/{{ t.lower() }}'" id="btn-android"
-                      class="button">{{ t }}</button>
-          {% endfor %}
-          <br>
-          <input id="ios" type="radio" name="phonetype" value="ios" > IOS<br>
-          <input id="android" type="radio" name="phonetype" value="ios" > Android
-          <!-- <hr/> -->
-      <!-- </div> -->
-    </p>
+
+      <!-- <div id="msg" class="alert alert-danger invisible" style="height: 3em">  {{ error }}   </div> -->
+      <div class="w-100" style="height: 70vh; overflow: auto;position:fixed">
+          <table class="table table-bordered w-50 h-80">
+              <thead>
+              <tr>
+                  <th style="width: 3%"></th>
+                  <th style="width: 7%">App Name</th>
+                  <th style="width: 20%">App ID</th>
+                  <th style="width: 15%">Flags</th>
+                  <!-- <th style="width: 30%">Notes</th> -->
+              </tr>
+              </thead>
+              <tbody id="applist" class="h-100">
+              {% for appId, info in apps.items() %}
+                  <tr id="{{ appId.replace('.', '-') }}">
+                      {% if appId in sysapps %}
+                          <td><a class="h4" onclick="" href="javascript:;" data-toggle="tooltip"
+                                 title="System App! Cannot delete">&otimes;</a></td>
+                      {%  else %}
+                          <td><a class="h4 text-danger" onclick="delete_app('{{ appId }}', this)" href="javascript:;" data-toggle="tooltip"
+                                 title="Delete app">&otimes;</a></td>
+                      {% endif %}
+                      <td><a href="/details/app/{{ device }}?appId={{ appId }}&serial={{ serial }}" target="_blank">
+                          {{ info['title'] }}</a></td>
+                      <td><a class="{{ info.class_ }} appid" href="https://www.google.com/search?q={{ appId }}"
+                             target="_blank"><code>{{ appId }}</code></a></td>
+                      <td>{{ info['flags'] | safe }}</td>
+                      <!-- <td><input type="text" placeholder="Notes" class='form-control' name="{{ appId }}" /></td> -->
+                  </tr>
+              {% endfor %}
+              </tbody>
+          </table>
+
+      </div>
 
     <div class="progress">
         <div id='scan-prog' class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
@@ -160,51 +175,13 @@
     </div>
 
     <p style="margin-top:450px">
-      <a href='/confirm' class='button' style="margin-left:25px">BACK</a>
-      <a href='' class='button' id="cc" style="margin-left:383px" onclick=myFunc()>SCAN</a>
+      <a href='/confirm' class='button' style="margin-left:25px;position:fixed">DONE</a>
+      <!-- <a href='' class='button' id="cc" style="margin-left:342px" onclick=myFunc()>CONTINUE</a> -->
     </p>
     </div>
     <div class="col-lg-3"></div>
     </div>
   </div>
-
-
-        <div id="msg" class="alert alert-danger invisible" style="height: 3em">  {{ error }}   </div>
-        <div class="w-100" style="height: 70vh; overflow: auto;">
-            <table class="table table-bordered w-100 h-100">
-                <thead>
-                <tr>
-                    <th style="width: 3%"></th>
-                    <th style="width: 23%">App Name</th>
-                    <th style="width: 23%">App ID</th>
-                    <th style="width: 20%">Flags</th>
-                    <th style="width: 30%">Notes</th>
-                </tr>
-                </thead>
-                <tbody id="applist" class="h-100">
-                {% for appId, info in apps.items() %}
-                    <tr id="{{ appId.replace('.', '-') }}">
-                        {% if appId in sysapps %}
-                            <td><a class="h4" onclick="" href="javascript:;" data-toggle="tooltip"
-                                   title="System App! Cannot delete">&otimes;</a></td>
-                        {%  else %}
-                            <td><a class="h4 text-danger" onclick="delete_app('{{ appId }}', this)" href="javascript:;" data-toggle="tooltip"
-                                   title="Delete app">&otimes;</a></td>
-                        {% endif %}
-                        <td><a href="/details/app/{{ device }}?appId={{ appId }}&serial={{ serial }}" target="_blank">
-                            {{ info['title'] }}</a></td>
-                        <td><a class="{{ info.class_ }} appid" href="https://www.google.com/search?q={{ appId }}"
-                               target="_blank"><code>{{ appId }}</code></a></td>
-                        <td>{{ info['flags'] | safe }}</td>
-                        <td><input type="text" placeholder="Notes" class='form-control' name="{{ appId }}" /></td>
-                    </tr>
-                {% endfor %}
-                </tbody>
-            </table>
-
-        </div>
-
-
 
 </body>
 </html>

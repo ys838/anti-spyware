@@ -8,7 +8,7 @@
   <link href="https://fonts.googleapis.com/css?family=Reem+Kufi" rel="stylesheet">
   <!-- <link rel="stylesheet" href="style.css"> -->
   <link rel=stylesheet type=text/css
-        href="{{ url_for('static', filename='style1.css') }}">
+        href="{{ url_for('static', filename='style.css') }}">
   <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
   <style>
@@ -34,8 +34,23 @@
 
     a {font-size: 16px;}
     </style>
+
+    <script type="text/javascript">
+    var oldURL = document.referrer;
+    // alert(oldURL);
+    window.onload=previous;
+    function previous(){
+      if (oldURL == 'http://127.0.0.1:5000/existing'){
+        document.getElementById("history").style.display = "inline";
+      }
+      else if(oldURL == 'http://127.0.0.1:5000/scan/test'){
+        document.getElementById("history").style.display = "inline";
+      }
+    }
+    </script>
 </head>
 <body>
+
 
   <div class="hh">
     <div class="row">
@@ -55,48 +70,50 @@
   </div>
   </div>
 
-
-<div class="container">
-  <!-- <h4>Disclaimer</h4>
-  <h5>We will be scanning the applications that are currently on your phone.
-    This is to check whether your personal information is being wrongfully accessed.
-    However, there is no guarantee that we will find anything useful.
-    We will not share the scanned results with any third parties or use them for illegal purposes.</h5> -->
-    <form action="phonesystem.html">
-    First Name: Adsuan <br>
-    Last Name: Nishseth<br>
-
-   Address:
-   Cornell Tech<br>
-    Phone:
-    732980123<br>
-    <br><br>
-
-    Scan History
-    <br>
-
-   <table style="width: 50%;" border="2" cellpadding="2">
-<tbody>
-<tr style="height: 21px;">
-<td style="height: 21px;">Scan ID</td>
-<td style="height: 21px;">&nbsp;Date Of Scan</td>
-<td style="height: 21px;">&nbsp;Date Of Scan</td>
-</tr>
-<tr style="height: 22px;">
-<td style="height: 22px;">123456</td>
-<td style="height: 22px;">04/10/2018</td>
-<td style="height: 22px;">PDF Link?</td>
-</tr>
-</tbody>
-</table>
-
-
-<br>
-<a href='/profile' class='button'>BACK</a>
-<a href='/scan' class='button' id='cc'>CONTINUE</a>
-
+  <div class="row">
+      <div class="col-lg-3"></div>
+      <div class="col-lg-6">
+    <div class="box" style="width:600px;height:500px;margin-top:150px;position:fixed;background-color:#BDBDBD;">
+    <div class="box2" style="margin-left:25px;margin-right:auto;width:550px;height:410px;margin-top:25px;position:fixed;background-color:#F2F2F2;">
+      <p style="margin-left:50px;margin-top:50px;font-size:18px;color:#040E3F">
+      First Name: Adsuan <br>
+      Last Name: Nishseth<br>
+      Address: Cornell Tech<br>
+       Phone: 732980123<br><br>
+       Scan History:
+       <br>
+    </p>
+        <!-- <div id="msg" class="alert alert-danger invisible" style="height: 3em">  {{ error }}   </div> -->
+<div id="history" style="text-align:center;display:none">
+        <table style="width: 50%;text-align:center" align="center" border="2" cellpadding="2">
+     <tbody>
+     <tr style="height: 21px;">
+     <td style="height: 21px;">Scan ID</td>
+     <td style="height: 21px;">&nbsp;Date Of Scan</td>
+     <td style="height: 21px;">&nbsp;Record</td>
+     </tr>
+     <tr style="height: 22px;">
+     <td style="height: 22px;">123456</td>
+     <td style="height: 22px;">04/10/2018</td>
+     <td style="height: 22px;">PDF Link?</td>
+     </tr>
+     </tbody>
+     </table>
 </div>
-</div>
+
+
+      </div>
+
+      <p style="margin-top:450px">
+        <a href='/profile' class='button' style="margin-left:25px">BACK</a>
+        <a href='/scan' class='button' id="cc" style="margin-left:342px" onclick=myFunc()>NEW SCAN</a>
+      </p>
+      </div>
+      <div class="col-lg-3"></div>
+      </div>
+    </div>
+
+
 
 </body>
 </html>

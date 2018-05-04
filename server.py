@@ -19,7 +19,7 @@ def get_device(k):
         'test': test
     }.get(k)
 
-
+# Start of Summer's code
 @FLASK_APP.route("/", methods=['GET'])
 def index():
     return render_template('index.html')
@@ -36,6 +36,10 @@ def disclaimer():
 def profile():
     return render_template('profile.html')
 
+@FLASK_APP.route("/existing", methods=['GET'])
+def db():
+    return render_template('db.html')
+
 @FLASK_APP.route("/confirm", methods=['GET'])
 def confirm():
     return render_template('confirm.html')
@@ -51,6 +55,7 @@ def index2():
         }, apps={}
     )
 
+# End of Summer's code
 
 @FLASK_APP.route('/details/app/<device>', methods=['GET'])
 def app_details(device):
