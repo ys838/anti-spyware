@@ -208,139 +208,6 @@
     ],
     "CFBundleName" : "WLAccessService"
   },
-  "com.amazon.Amazon" : {
-    "Container" : "\/private\/var\/mobile\/Containers\/Data\/Application\/37391DC2-DB45-43D8-88F9-32FEDAF187CD",
-    "CFBundleIdentifier" : "com.amazon.Amazon",
-    "SignerIdentity" : "Apple iPhone OS Application Signing",
-    "ApplicationType" : "User",
-    "ApplicationDSID" : 413717755,
-    "CFBundleName" : "Amazon",
-    "CFBundleExecutable" : "Amazon",
-    "IsUpgradeable" : true,
-    "UISupportedInterfaceOrientations" : [
-      "UIInterfaceOrientationPortrait",
-      "UIInterfaceOrientationPortraitUpsideDown",
-      "UIInterfaceOrientationLandscapeLeft",
-      "UIInterfaceOrientationLandscapeRight"
-    ],
-    "CFBundleDisplayName" : "Amazon",
-    "MinimumOSVersion" : "9.0",
-    "CFBundleSupportedPlatforms" : [
-      "iPhoneOS"
-    ],
-    "CFBundleURLTypes" : [
-      {
-        "CFBundleTypeRole" : "Editor",
-        "CFBundleURLSchemes" : [
-          "com.amazon.mobile.shopping"
-        ]
-      },
-      {
-        "CFBundleTypeRole" : "Editor",
-        "CFBundleURLSchemes" : [
-          "com.amazon.mobile.shopping.web"
-        ]
-      },
-      {
-        "CFBundleTypeRole" : "Editor",
-        "CFBundleURLSchemes" : [
-          "com.amazon.lwa.sso"
-        ]
-      },
-      {
-        "CFBundleURLSchemes" : [
-          "fb164734381262mshop"
-        ]
-      },
-      {
-        "CFBundleTypeRole" : "Editor",
-        "CFBundleURLName" : "weixin",
-        "CFBundleURLSchemes" : [
-          "wx8d2874db246a417a"
-        ]
-      },
-      {
-        "CFBundleTypeRole" : "Editor",
-        "CFBundleURLName" : "",
-        "CFBundleURLSchemes" : [
-          "amazonToAlipay"
-        ]
-      }
-    ],
-    "Path" : "\/private\/var\/containers\/Bundle\/Application\/99B724AE-9487-4A73-85F9-B6C0B573043A\/Amazon.app",
-    "HasSettingsBundle" : true,
-    "Entitlements" : {
-      "keychain-access-groups" : [
-        "94KV3E626L.com.amazon.Amazon"
-      ],
-      "com.apple.developer.pass-type-identifiers" : [
-        "94KV3E626L.*"
-      ],
-      "com.apple.developer.team-identifier" : "94KV3E626L",
-      "com.apple.developer.associated-domains" : [
-        "applinks:www.amazon.com",
-        "applinks:dl.amazon.com",
-        "applinks:amazon.com",
-        "applinks:www.amazon.com.au",
-        "applinks:amazon.com.au",
-        "applinks:www.amazon.com.br",
-        "applinks:dl.amazon.com.br",
-        "applinks:amazon.com.br",
-        "applinks:www.amazon.ca",
-        "applinks:dl.amazon.ca",
-        "applinks:amazon.ca",
-        "applinks:www.amazon.cn",
-        "applinks:dl.amazon.cn",
-        "applinks:amazon.cn",
-        "applinks:www.amazon.de",
-        "applinks:dl.amazon.de",
-        "applinks:amazon.de",
-        "applinks:www.amazon.es",
-        "applinks:dl.amazon.es",
-        "applinks:amazon.es",
-        "applinks:www.amazon.fr",
-        "applinks:dl.amazon.fr",
-        "applinks:amazon.fr",
-        "applinks:www.amazon.in",
-        "applinks:dl.amazon.in",
-        "applinks:amazon.in",
-        "applinks:www.amazon.it",
-        "applinks:dl.amazon.it",
-        "applinks:amazon.it",
-        "applinks:www.amazon.co.jp",
-        "applinks:dl.amazon.co.jp",
-        "applinks:amazon.co.jp",
-        "applinks:www.amazon.com.mx",
-        "applinks:dl.amazon.com.mx",
-        "applinks:amazon.com.mx",
-        "applinks:www.amazon.co.uk",
-        "applinks:dl.amazon.co.uk",
-        "applinks:amazon.co.uk",
-        "webcredentials:www.amazon.com",
-        "webcredentials:www.amazon.com.br",
-        "webcredentials:www.amazon.ca",
-        "webcredentials:www.amazon.cn",
-        "webcredentials:www.amazon.de",
-        "webcredentials:www.amazon.es",
-        "webcredentials:www.amazon.fr",
-        "webcredentials:www.amazon.in",
-        "webcredentials:www.amazon.it",
-        "webcredentials:www.amazon.co.jp",
-        "webcredentials:www.amazon.com.mx",
-        "webcredentials:www.amazon.co.uk"
-      ],
-      "application-identifier" : "94KV3E626L.com.amazon.Amazon",
-      "com.apple.security.application-groups" : [
-        "group.com.amazon.Amazon"
-      ],
-      "aps-environment" : "production"
-    },
-    "UIDeviceFamily" : [
-      1,
-      2
-    ],
-    "CFBundleShortVersionString" : "11.9.0"
-  },
   "com.apple.purplebuddy" : {
     "CFBundleShortVersionString" : "1.0.0",
     "CFBundleIdentifier" : "com.apple.purplebuddy",
@@ -1951,65 +1818,6 @@
       2
     ],
     "CFBundleName" : "StoreDemoViewService"
-  },
-  "com.amazon.Now" : {
-    "Container" : "\/private\/var\/mobile\/Containers\/Data\/Application\/3F4E1E47-3E7D-4F96-9317-E274A08EBAE9",
-    "CFBundleIdentifier" : "com.amazon.Now",
-    "SignerIdentity" : "Apple iPhone OS Application Signing",
-    "ApplicationType" : "User",
-    "ApplicationDSID" : 413717755,
-    "CFBundleName" : "Prime Now",
-    "CFBundleExecutable" : "PrimeNow",
-    "IsUpgradeable" : true,
-    "UISupportedInterfaceOrientations" : [
-      "UIInterfaceOrientationPortrait"
-    ],
-    "CFBundleDisplayName" : "Prime Now",
-    "MinimumOSVersion" : "10.0",
-    "CFBundleSupportedPlatforms" : [
-      "iPhoneOS"
-    ],
-    "CFBundleURLTypes" : [
-      {
-        "CFBundleTypeRole" : "Editor",
-        "CFBundleURLSchemes" : [
-          "primenow"
-        ]
-      }
-    ],
-    "Path" : "\/private\/var\/containers\/Bundle\/Application\/9E0EE370-FA44-4EC5-ACF2-A3BB6F33576B\/PrimeNow.app",
-    "HasSettingsBundle" : true,
-    "Entitlements" : {
-      "keychain-access-groups" : [
-        "J7P34ALZ5R.com.amazon.Now"
-      ],
-      "application-identifier" : "J7P34ALZ5R.com.amazon.Now",
-      "aps-environment" : "production",
-      "com.apple.developer.associated-domains" : [
-        "applinks:primenow.amazon.com",
-        "applinks:primenow.amazon.co.uk",
-        "applinks:primenow.amazon.it",
-        "applinks:primenow.amazon.co.jp",
-        "applinks:primenow.amazon.de",
-        "applinks:primenow.amazon.es",
-        "applinks:primenow.amazon.fr",
-        "applinks:www.amazon.com.sg",
-        "webcredentials:www.amazon.com",
-        "webcredentials:www.amazon.co.uk",
-        "webcredentials:www.amazon.it",
-        "webcredentials:www.amazon.co.jp",
-        "webcredentials:www.amazon.de",
-        "webcredentials:www.amazon.es",
-        "webcredentials:www.amazon.fr",
-        "webcredentials:www.amazon.com.sg"
-      ],
-      "com.apple.developer.team-identifier" : "94KV3E626L",
-      "com.apple.developer.default-data-protection" : "NSFileProtectionComplete"
-    },
-    "UIDeviceFamily" : [
-      1
-    ],
-    "CFBundleShortVersionString" : "5.0.1"
   },
   "com.facebook.Facebook" : {
     "Container" : "\/private\/var\/mobile\/Containers\/Data\/Application\/7EE99412-199D-40C3-9CA5-69843A972101",
@@ -12879,6 +12687,50 @@
     ],
     "CFBundleName" : "User Authentication"
   },
+  "com.starwoodhotels.spg" : {
+    "Container" : "\/private\/var\/mobile\/Containers\/Data\/Application\/4D55D8D0-27FD-4243-9AEF-8F1756E92997",
+    "CFBundleIdentifier" : "com.starwoodhotels.spg",
+    "SignerIdentity" : "Apple iPhone OS Application Signing",
+    "ApplicationType" : "User",
+    "ApplicationDSID" : 413717755,
+    "CFBundleName" : "SPG",
+    "CFBundleExecutable" : "SPG",
+    "IsUpgradeable" : true,
+    "UISupportedInterfaceOrientations" : [
+      "UIInterfaceOrientationPortrait"
+    ],
+    "CFBundleDisplayName" : "SPG",
+    "MinimumOSVersion" : "11.0",
+    "CFBundleSupportedPlatforms" : [
+      "iPhoneOS"
+    ],
+    "CFBundleURLTypes" : [
+      {
+        "CFBundleURLSchemes" : [
+          "fb334464566670695",
+          "spg"
+        ]
+      }
+    ],
+    "Path" : "\/private\/var\/containers\/Bundle\/Application\/6AC78FD8-6FEC-4DC0-B439-FE8B4852C1E0\/SPG.app",
+    "Entitlements" : {
+      "keychain-access-groups" : [
+        "FQ4WT6TGR2.group.com.starwoodhotels.spg"
+      ],
+      "application-identifier" : "FQ4WT6TGR2.com.starwoodhotels.spg",
+      "aps-environment" : "production",
+      "com.apple.developer.team-identifier" : "722QAVZ8WW",
+      "com.apple.security.application-groups" : [
+        "group.com.starwoodhotels.spgkit"
+      ]
+    },
+    "UIStatusBarHidden" : true,
+    "UIDeviceFamily" : [
+      1,
+      2
+    ],
+    "CFBundleShortVersionString" : "7.1.4"
+  },
   "com.youku.YouKu" : {
     "Container" : "\/private\/var\/mobile\/Containers\/Data\/Application\/5AC6C816-B560-4C6B-A00B-F847D152C5C6",
     "CFBundleIdentifier" : "com.youku.YouKu",
@@ -13038,49 +12890,5 @@
       1
     ],
     "CFBundleShortVersionString" : "7.2.5"
-  },
-  "com.starwoodhotels.spg" : {
-    "Container" : "\/private\/var\/mobile\/Containers\/Data\/Application\/4D55D8D0-27FD-4243-9AEF-8F1756E92997",
-    "CFBundleIdentifier" : "com.starwoodhotels.spg",
-    "SignerIdentity" : "Apple iPhone OS Application Signing",
-    "ApplicationType" : "User",
-    "ApplicationDSID" : 413717755,
-    "CFBundleName" : "SPG",
-    "CFBundleExecutable" : "SPG",
-    "IsUpgradeable" : true,
-    "UISupportedInterfaceOrientations" : [
-      "UIInterfaceOrientationPortrait"
-    ],
-    "CFBundleDisplayName" : "SPG",
-    "MinimumOSVersion" : "11.0",
-    "CFBundleSupportedPlatforms" : [
-      "iPhoneOS"
-    ],
-    "CFBundleURLTypes" : [
-      {
-        "CFBundleURLSchemes" : [
-          "fb334464566670695",
-          "spg"
-        ]
-      }
-    ],
-    "Path" : "\/private\/var\/containers\/Bundle\/Application\/6AC78FD8-6FEC-4DC0-B439-FE8B4852C1E0\/SPG.app",
-    "Entitlements" : {
-      "keychain-access-groups" : [
-        "FQ4WT6TGR2.group.com.starwoodhotels.spg"
-      ],
-      "application-identifier" : "FQ4WT6TGR2.com.starwoodhotels.spg",
-      "aps-environment" : "production",
-      "com.apple.developer.team-identifier" : "722QAVZ8WW",
-      "com.apple.security.application-groups" : [
-        "group.com.starwoodhotels.spgkit"
-      ]
-    },
-    "UIStatusBarHidden" : true,
-    "UIDeviceFamily" : [
-      1,
-      2
-    ],
-    "CFBundleShortVersionString" : "7.1.4"
   }
 }
