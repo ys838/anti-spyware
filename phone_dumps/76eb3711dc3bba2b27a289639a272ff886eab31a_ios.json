@@ -66,7 +66,7 @@
     "CFBundleName" : "ScreenSharingViewService"
   },
   "com.contextoptional.OpenTable" : {
-    "Container" : "\/private\/var\/mobile\/Containers\/Data\/Application\/EA47F6E5-D33A-4F88-AD20-E2D5A59ACDF7",
+    "Container" : "\/private\/var\/mobile\/Containers\/Data\/Application\/60BB2134-89DA-44C3-8412-EF2558FC357A",
     "CFBundleIdentifier" : "com.contextoptional.OpenTable",
     "SignerIdentity" : "Apple iPhone OS Application Signing",
     "ApplicationType" : "User",
@@ -96,7 +96,7 @@
         ]
       }
     ],
-    "Path" : "\/private\/var\/containers\/Bundle\/Application\/6B34061D-DB00-43D4-A726-26D319632763\/OpenTable.app",
+    "Path" : "\/private\/var\/containers\/Bundle\/Application\/E90F7744-7C60-40DF-A7B1-A1F05D43187D\/OpenTable.app",
     "Entitlements" : {
       "keychain-access-groups" : [
         "LNB245835Z.com.opentable.consumer"
@@ -154,7 +154,7 @@
       1,
       2
     ],
-    "CFBundleShortVersionString" : "11.15.1"
+    "CFBundleShortVersionString" : "11.16.0"
   },
   "com.apple.WLAccessService" : {
     "Container" : "\/private\/var\/mobile\/Containers\/Data\/Application\/664CFA2E-EA3E-40C0-8044-A8859F077360",
@@ -972,7 +972,7 @@
     "CFBundleName" : "SharingViewService"
   },
   "com.google.ios.youtube" : {
-    "Container" : "\/private\/var\/mobile\/Containers\/Data\/Application\/A3C24DF2-A4A6-4B69-A57D-1CE196B5492B",
+    "Container" : "\/private\/var\/mobile\/Containers\/Data\/Application\/2D2D9A09-BFDE-46F9-A389-2F9B11D127CB",
     "CFBundleIdentifier" : "com.google.ios.youtube",
     "SignerIdentity" : "Apple iPhone OS Application Signing",
     "ApplicationType" : "User",
@@ -1004,7 +1004,7 @@
         ]
       }
     ],
-    "Path" : "\/private\/var\/containers\/Bundle\/Application\/5F06A7AF-4271-4F06-B362-49F700D069B0\/YouTube.app",
+    "Path" : "\/private\/var\/containers\/Bundle\/Application\/0B8448ED-3B12-4BBC-A429-FBE38388E65C\/YouTube.app",
     "Entitlements" : {
       "keychain-access-groups" : [
         "EQHXZ8M8AV.com.google.ios.youtube",
@@ -1027,7 +1027,7 @@
       1,
       2
     ],
-    "CFBundleShortVersionString" : "13.16.12"
+    "CFBundleShortVersionString" : "13.17.8"
   },
   "com.apple.mobilegarageband" : {
     "ApplicationDSID" : 413717755,
@@ -1368,7 +1368,7 @@
     "CFBundleName" : "MailCompositionService"
   },
   "com.ziroom.ZiroomProject" : {
-    "Container" : "\/private\/var\/mobile\/Containers\/Data\/Application\/FEBE8FC3-C01C-4C3E-A9D3-411319779DA7",
+    "Container" : "\/private\/var\/mobile\/Containers\/Data\/Application\/AF24DF1F-A649-47BE-A399-5EE0EEA22EB5",
     "CFBundleIdentifier" : "com.ziroom.ZiroomProject",
     "SignerIdentity" : "Apple iPhone OS Application Signing",
     "ApplicationType" : "User",
@@ -1466,7 +1466,7 @@
         ]
       }
     ],
-    "Path" : "\/private\/var\/containers\/Bundle\/Application\/DE950D48-361E-4237-9B0C-FCE9AA9F6300\/ZiroomerProject.app",
+    "Path" : "\/private\/var\/containers\/Bundle\/Application\/2227B883-B975-4BD6-AFD9-A6650BE215C1\/ZiroomerProject.app",
     "Entitlements" : {
       "keychain-access-groups" : [
         "4UV82BNFSA.com.ziroom.ZiroomProject"
@@ -1481,7 +1481,7 @@
     "UIDeviceFamily" : [
       1
     ],
-    "CFBundleShortVersionString" : "5.5.1"
+    "CFBundleShortVersionString" : "5.5.2"
   },
   "com.apple.mobilecal" : {
     "Container" : "\/private\/var\/mobile\/Containers\/Data\/Application\/3BBE835D-423C-455B-9D79-F1BFCE56A774",
@@ -1820,7 +1820,7 @@
     "CFBundleName" : "StoreDemoViewService"
   },
   "com.facebook.Facebook" : {
-    "Container" : "\/private\/var\/mobile\/Containers\/Data\/Application\/7EE99412-199D-40C3-9CA5-69843A972101",
+    "Container" : "\/private\/var\/mobile\/Containers\/Data\/Application\/78BA9A52-2487-4DAA-A771-F95D210F8517",
     "CFBundleIdentifier" : "com.facebook.Facebook",
     "SignerIdentity" : "Apple iPhone OS Application Signing",
     "ApplicationType" : "User",
@@ -1872,7 +1872,7 @@
         ]
       }
     ],
-    "Path" : "\/private\/var\/containers\/Bundle\/Application\/52917506-636F-421C-8445-E779BE90E4DA\/Facebook.app",
+    "Path" : "\/private\/var\/containers\/Bundle\/Application\/73A4AC12-2390-4E3E-BB08-C5889EB7B199\/Facebook.app",
     "HasSettingsBundle" : true,
     "Entitlements" : {
       "keychain-access-groups" : [
@@ -1902,7 +1902,7 @@
       2
     ],
     "UIStatusBarHidden" : true,
-    "CFBundleShortVersionString" : "170.0"
+    "CFBundleShortVersionString" : "170.1"
   },
   "com.apple.AdSheetPhone" : {
     "CFBundleShortVersionString" : "1.0",
@@ -1976,7 +1976,7 @@
     "CFBundleName" : "iAd"
   },
   "com.zimride.instant" : {
-    "Container" : "\/private\/var\/mobile\/Containers\/Data\/Application\/4B90883A-023A-49DA-B12D-6FA73E6D72B7",
+    "Container" : "\/private\/var\/mobile\/Containers\/Data\/Application\/BE6D0D7A-2AA7-4006-AB44-11E32D418FCE",
     "CFBundleIdentifier" : "com.zimride.instant",
     "SignerIdentity" : "Apple iPhone OS Application Signing",
     "ApplicationType" : "User",
@@ -2011,7 +2011,7 @@
         ]
       }
     ],
-    "Path" : "\/private\/var\/containers\/Bundle\/Application\/01861B11-DDA9-4A19-B941-BE47BFBDFC0F\/Lyft.app",
+    "Path" : "\/private\/var\/containers\/Bundle\/Application\/BFB5E366-FF64-479F-9D75-7282D81B7928\/Lyft.app",
     "Entitlements" : {
       "aps-environment" : "production",
       "com.apple.developer.associated-domains" : [
@@ -2035,7 +2035,7 @@
     "UIDeviceFamily" : [
       1
     ],
-    "CFBundleShortVersionString" : "5.25.3"
+    "CFBundleShortVersionString" : "5.26.3"
   },
   "com.kuruiaosi.qdaily" : {
     "Container" : "\/private\/var\/mobile\/Containers\/Data\/Application\/3CA98151-3920-44B4-A0E4-AA610EBEB5A1",
@@ -3236,7 +3236,7 @@
     "CFBundleName" : "AskPermissionUI"
   },
   "com.lagou.lagouhr" : {
-    "Container" : "\/private\/var\/mobile\/Containers\/Data\/Application\/667C3932-06C9-481E-9B59-B63B7B3E5A37",
+    "Container" : "\/private\/var\/mobile\/Containers\/Data\/Application\/D084A89C-EC5E-4A95-9A84-0C74F4918569",
     "CFBundleIdentifier" : "com.lagou.lagouhr",
     "SignerIdentity" : "Apple iPhone OS Application Signing",
     "ApplicationType" : "User",
@@ -3269,11 +3269,11 @@
           "lagouhr",
           "lagou",
           "lagouhrappstore",
-          "lagou7101"
+          "lagou7514"
         ]
       }
     ],
-    "Path" : "\/private\/var\/containers\/Bundle\/Application\/6DDA0E5A-B242-4BA8-BDC1-3584CE07B4B6\/lagouhr_appstore.app",
+    "Path" : "\/private\/var\/containers\/Bundle\/Application\/A71017AD-D93F-4F4D-8EAE-EC20BFF72C3E\/lagouhr_appstore.app",
     "Entitlements" : {
       "application-identifier" : "3CGKDFZPAL.com.lagou.lagouhr",
       "aps-environment" : "production",
@@ -3287,7 +3287,7 @@
     "UIDeviceFamily" : [
       1
     ],
-    "CFBundleShortVersionString" : "6.2.0"
+    "CFBundleShortVersionString" : "6.3.1"
   },
   "com.apple.mobiletimer" : {
     "CFBundleIdentifier" : "com.apple.mobiletimer",
@@ -3904,7 +3904,7 @@
     "CFBundleName" : "PhotosViewService"
   },
   "com.fandango.fandango" : {
-    "Container" : "\/private\/var\/mobile\/Containers\/Data\/Application\/AD20348F-E8A1-4B52-AE7E-80D447251325",
+    "Container" : "\/private\/var\/mobile\/Containers\/Data\/Application\/9916CE4E-4E3C-416E-860D-76E09CFBBC55",
     "CFBundleIdentifier" : "com.fandango.fandango",
     "SignerIdentity" : "Apple iPhone OS Application Signing",
     "ApplicationType" : "User",
@@ -3944,7 +3944,7 @@
         ]
       }
     ],
-    "Path" : "\/private\/var\/containers\/Bundle\/Application\/C1B4BC13-A568-4E30-8753-146DD8A0EA5C\/Fandango.app",
+    "Path" : "\/private\/var\/containers\/Bundle\/Application\/B5FB0B25-BE81-4EC8-962A-C4CA1BEB5501\/Fandango.app",
     "Entitlements" : {
       "keychain-access-groups" : [
         "MFX9CD4PS2.com.fandango.fandango"
@@ -3973,7 +3973,7 @@
       1,
       2
     ],
-    "CFBundleShortVersionString" : "9.7.1"
+    "CFBundleShortVersionString" : "9.8"
   },
   "com.apple.SafariViewService" : {
     "Container" : "\/private\/var\/mobile\/Containers\/Data\/Application\/4F1FF42B-4BFB-4E1A-B790-20E5243E9D3C",
@@ -4238,7 +4238,7 @@
     "CFBundleName" : "AccountAuthenticationDialog"
   },
   "com.linkedin.LinkedIn" : {
-    "Container" : "\/private\/var\/mobile\/Containers\/Data\/Application\/01C924A3-9389-491C-9D72-1737C79FA539",
+    "Container" : "\/private\/var\/mobile\/Containers\/Data\/Application\/B058F654-1E09-42E0-93E6-C813E953F354",
     "CFBundleIdentifier" : "com.linkedin.LinkedIn",
     "SignerIdentity" : "Apple iPhone OS Application Signing",
     "ApplicationType" : "User",
@@ -4274,7 +4274,7 @@
         ]
       }
     ],
-    "Path" : "\/private\/var\/containers\/Bundle\/Application\/8C90E54D-CD15-4BF3-85D1-52E9C5F70E07\/LinkedIn.app",
+    "Path" : "\/private\/var\/containers\/Bundle\/Application\/1669E003-1764-46B5-96D6-8FCACC92C678\/LinkedIn.app",
     "Entitlements" : {
       "keychain-access-groups" : [
         "8AXPVS6C36.com.linkedin.LinkedIn",
@@ -4379,7 +4379,7 @@
       1,
       2
     ],
-    "CFBundleShortVersionString" : "2018.04.27"
+    "CFBundleShortVersionString" : "2018.05.07"
   },
   "com.americanexpress.amexservice" : {
     "Container" : "\/private\/var\/mobile\/Containers\/Data\/Application\/E67C5891-CD3B-4EF9-AF3C-720AC577DE24",
@@ -4586,7 +4586,7 @@
     "CFBundleName" : "WebContentAnalysisUI"
   },
   "net.whatsapp.WhatsApp" : {
-    "Container" : "\/private\/var\/mobile\/Containers\/Data\/Application\/0DC5BFB7-8A82-486B-94FB-8FF42A9B4BB8",
+    "Container" : "\/private\/var\/mobile\/Containers\/Data\/Application\/5C66C68B-3CF9-4568-AF55-337BD3CC860A",
     "CFBundleIdentifier" : "net.whatsapp.WhatsApp",
     "SignerIdentity" : "Apple iPhone OS Application Signing",
     "ApplicationType" : "User",
@@ -4614,7 +4614,7 @@
         ]
       }
     ],
-    "Path" : "\/private\/var\/containers\/Bundle\/Application\/3D8EDE4D-7770-463C-8411-6B6BFE6F3D55\/WhatsApp.app",
+    "Path" : "\/private\/var\/containers\/Bundle\/Application\/033D177D-FD08-4DE8-83E8-BFA0C32D9326\/WhatsApp.app",
     "Entitlements" : {
       "keychain-access-groups" : [
         "UKFA9XBX6K.net.whatsapp.WhatsApp"
@@ -4648,7 +4648,79 @@
     "UIDeviceFamily" : [
       1
     ],
-    "CFBundleShortVersionString" : "2.18.41"
+    "CFBundleShortVersionString" : "2.18.51"
+  },
+  "com.apple.clips" : {
+    "Container" : "\/private\/var\/mobile\/Containers\/Data\/Application\/14CD3CE4-1A40-4A38-8ABD-2B3CE566BDB5",
+    "CFBundleIdentifier" : "com.apple.clips",
+    "SignerIdentity" : "Apple iPhone OS Application Signing",
+    "ApplicationType" : "User",
+    "ApplicationDSID" : 413717755,
+    "CFBundleName" : "Clips",
+    "CFBundleExecutable" : "Clips",
+    "IsUpgradeable" : true,
+    "UISupportedInterfaceOrientations" : [
+      "UIInterfaceOrientationPortrait"
+    ],
+    "CFBundleDisplayName" : "Clips",
+    "MinimumOSVersion" : "11.1",
+    "CFBundleSupportedPlatforms" : [
+      "iPhoneOS"
+    ],
+    "CFBundleURLTypes" : [
+      {
+        "CFBundleTypeRole" : "Editor",
+        "CFBundleURLSchemes" : [
+          "com.googleusercontent.apps.806817107758-edh1lj4e1aifibmvaoqs8a4ts4q9k213"
+        ]
+      },
+      {
+        "CFBundleTypeRole" : "Viewer",
+        "CFBundleURLSchemes" : [
+          "clips"
+        ]
+      }
+    ],
+    "Path" : "\/private\/var\/containers\/Bundle\/Application\/8E94F7D5-509F-43EF-90E2-27431B44078F\/Clips.app",
+    "HasSettingsBundle" : true,
+    "Entitlements" : {
+      "com.apple.coreduetd.allow" : true,
+      "com.apple.private.assetsd.xpcstore_restricted.access" : [
+        "photos.person"
+      ],
+      "com.apple.coreduetd.people" : true,
+      "com.apple.accounts.appleaccount.fullaccess" : true,
+      "com.apple.developer.icloud-container-environment" : "Production",
+      "com.apple.private.tcc.allow" : [
+        "kTCCServicePhotos",
+        "kTCCServiceCamera",
+        "kTCCServiceMicrophone",
+        "kTCCServiceAddressBook",
+        "kTCCServiceMediaLibrary",
+        "kTCCServiceSpeechRecognition"
+      ],
+      "com.apple.developer.ubiquity-container-identifiers" : [
+        "iCloud.com.apple.clips"
+      ],
+      "com.apple.private.assets.accessible-asset-types" : [
+        "com.apple.MobileAsset.VideoAppsMusicAssets",
+        "com.apple.MobileAsset.VideoAppsMusicAssets2"
+      ],
+      "com.apple.developer.team-identifier" : "82J93X7T25",
+      "com.apple.itunesstored.private" : true,
+      "application-identifier" : "82J93X7T25.com.apple.clips",
+      "com.apple.private.contactsui" : true,
+      "com.apple.springboard.opensensitiveurl" : true,
+      "com.apple.networking.vpn.configuration" : [
+        "com.apple.MobileAsset.VideoAppsMusicAssets",
+        "com.apple.MobileAsset.VideoAppsMusicAssets2"
+      ]
+    },
+    "UIDeviceFamily" : [
+      1,
+      2
+    ],
+    "CFBundleShortVersionString" : "2.0.3"
   },
   "com.apple.SiriViewService" : {
     "CFBundleShortVersionString" : "1.0",
@@ -4780,7 +4852,7 @@
     "CFBundleName" : "Siri"
   },
   "com.google.Docs" : {
-    "Container" : "\/private\/var\/mobile\/Containers\/Data\/Application\/AF472DD8-80E6-4DED-8B65-9033C177F683",
+    "Container" : "\/private\/var\/mobile\/Containers\/Data\/Application\/045E08A3-951A-4FE0-A41A-C2D7381C3EFD",
     "CFBundleIdentifier" : "com.google.Docs",
     "SignerIdentity" : "Apple iPhone OS Application Signing",
     "ApplicationType" : "User",
@@ -4795,7 +4867,7 @@
       "UIInterfaceOrientationLandscapeRight"
     ],
     "CFBundleDisplayName" : "Docs",
-    "MinimumOSVersion" : "9.0",
+    "MinimumOSVersion" : "10.0",
     "CFBundleSupportedPlatforms" : [
       "iPhoneOS"
     ],
@@ -4813,7 +4885,7 @@
         ]
       }
     ],
-    "Path" : "\/private\/var\/containers\/Bundle\/Application\/C706A400-C3A2-4F08-BA7A-CB1F577C58D9\/Docs.app",
+    "Path" : "\/private\/var\/containers\/Bundle\/Application\/BDD97025-5B8E-4114-A3D3-3C3E2EC3DDFB\/Docs.app",
     "Entitlements" : {
       "com.apple.developer.ubiquity-container-identifiers" : [
         "iCloud.com.google.container"
@@ -4843,114 +4915,10 @@
       1,
       2
     ],
-    "CFBundleShortVersionString" : "1.2018.16203"
-  },
-  "com.baidu.map" : {
-    "Container" : "\/private\/var\/mobile\/Containers\/Data\/Application\/98E52622-5E68-47C6-9994-FE011F587CDB",
-    "CFBundleIdentifier" : "com.baidu.map",
-    "SignerIdentity" : "Apple iPhone OS Application Signing",
-    "ApplicationType" : "User",
-    "ApplicationDSID" : 413717755,
-    "CFBundleName" : "百度地图",
-    "CFBundleExecutable" : "IphoneCom",
-    "IsUpgradeable" : true,
-    "UISupportedInterfaceOrientations" : [
-      "UIInterfaceOrientationPortrait",
-      "UIInterfaceOrientationLandscapeLeft",
-      "UIInterfaceOrientationLandscapeRight"
-    ],
-    "CFBundleDisplayName" : "百度地图",
-    "MinimumOSVersion" : "8.0",
-    "CFBundleSupportedPlatforms" : [
-      "iPhoneOS"
-    ],
-    "CFBundleURLTypes" : [
-      {
-        "CFBundleTypeRole" : "Editor",
-        "CFBundleURLName" : "com.baidu.map",
-        "CFBundleURLSchemes" : [
-          "tencent101458979"
-        ]
-      },
-      {
-        "CFBundleTypeRole" : "Editor",
-        "CFBundleURLName" : "com.baidu.map",
-        "CFBundleURLSchemes" : [
-          "wb646572927"
-        ]
-      },
-      {
-        "CFBundleTypeRole" : "Editor",
-        "CFBundleURLName" : "com.baidu.map",
-        "CFBundleURLSchemes" : [
-          "wx9a08a4f59ce91bf6"
-        ]
-      },
-      {
-        "CFBundleTypeRole" : "Editor",
-        "CFBundleURLName" : "com.baidu.map",
-        "CFBundleURLSchemes" : [
-          "baidumap"
-        ]
-      },
-      {
-        "CFBundleTypeRole" : "Editor",
-        "CFBundleURLName" : "com.baidu.map",
-        "CFBundleURLSchemes" : [
-          "bdmap"
-        ]
-      },
-      {
-        "CFBundleTypeRole" : "Editor",
-        "CFBundleURLName" : "com.baidu.map",
-        "CFBundleURLSchemes" : [
-          "baidumapWalletPay"
-        ]
-      },
-      {
-        "CFBundleTypeRole" : "Editor",
-        "CFBundleURLName" : "com.baidu.map",
-        "CFBundleURLSchemes" : [
-          "mapbainuo"
-        ]
-      },
-      {
-        "CFBundleTypeRole" : "Editor",
-        "CFBundleURLName" : "com.baidu.map",
-        "CFBundleURLSchemes" : [
-          "prefs"
-        ]
-      }
-    ],
-    "Path" : "\/private\/var\/containers\/Bundle\/Application\/93F9BB20-A811-4C8B-97FB-52CBE8E9D5E9\/IphoneCom.app",
-    "Entitlements" : {
-      "keychain-access-groups" : [
-        "B83JBVZ6M5.com.baidu.shareLoginAccount",
-        "B83JBVZ6M5.com.baidu.lbsmap",
-        "B83JBVZ6M5.com.baidu.mtjgroup",
-        "B83JBVZ6M5.com.baidu.map",
-        "B83JBVZ6M5.com.baidu.baidumobile.cuid"
-      ],
-      "application-identifier" : "B83JBVZ6M5.com.baidu.map",
-      "aps-environment" : "production",
-      "com.apple.developer.associated-domains" : [
-        "applinks:clientmap.baidu.com",
-        "applinks:map.baidu.com",
-        "activitycontinuation:map.baidu.com"
-      ],
-      "com.apple.developer.team-identifier" : "B83JBVZ6M5",
-      "com.apple.security.application-groups" : [
-        "group.com.baidu.map"
-      ]
-    },
-    "UIStatusBarHidden" : true,
-    "UIDeviceFamily" : [
-      1
-    ],
-    "CFBundleShortVersionString" : "10.7.0"
+    "CFBundleShortVersionString" : "1.2018.18204"
   },
   "com.yelp.yelpiphone" : {
-    "Container" : "\/private\/var\/mobile\/Containers\/Data\/Application\/138B2732-3561-4994-BF16-B8D925010532",
+    "Container" : "\/private\/var\/mobile\/Containers\/Data\/Application\/929F89A5-0C31-4EF0-9024-093271ECD917",
     "CFBundleIdentifier" : "com.yelp.yelpiphone",
     "SignerIdentity" : "Apple iPhone OS Application Signing",
     "ApplicationType" : "User",
@@ -5013,7 +4981,7 @@
         ]
       }
     ],
-    "Path" : "\/private\/var\/containers\/Bundle\/Application\/10D48CD8-CECD-41AD-851B-5395D2ABC931\/Yelp.app",
+    "Path" : "\/private\/var\/containers\/Bundle\/Application\/AC45DA1F-A8D3-4884-AD4B-BBD7D1CC6792\/Yelp.app",
     "Entitlements" : {
       "keychain-access-groups" : [
         "SBSSF9BESA.com.yelp.yelpiphone",
@@ -5269,10 +5237,10 @@
       1,
       2
     ],
-    "CFBundleShortVersionString" : "12.9.0"
+    "CFBundleShortVersionString" : "12.10.0"
   },
   "com.united.UnitedCustomerFacingIPhone" : {
-    "Container" : "\/private\/var\/mobile\/Containers\/Data\/Application\/CE6C6C6B-C4DA-4F28-B138-B2A457718FE0",
+    "Container" : "\/private\/var\/mobile\/Containers\/Data\/Application\/B79BAA37-F741-44D6-A748-A9EC1F259CD3",
     "CFBundleIdentifier" : "com.united.UnitedCustomerFacingIPhone",
     "SignerIdentity" : "Apple iPhone OS Application Signing",
     "ApplicationType" : "User",
@@ -5304,7 +5272,7 @@
         ]
       }
     ],
-    "Path" : "\/private\/var\/containers\/Bundle\/Application\/214ACDA0-BA74-448D-94BA-9BE72154057B\/UnitedCustomerFacingIPhone.app",
+    "Path" : "\/private\/var\/containers\/Bundle\/Application\/5ADB986A-8710-405E-93AB-F8AF5401BC14\/UnitedCustomerFacingIPhone.app",
     "Entitlements" : {
       "com.apple.developer.pass-type-identifiers" : [
         "K69MGG379R.pass.united.UnitedMobileBoardingPass",
@@ -5332,7 +5300,7 @@
       1,
       2
     ],
-    "CFBundleShortVersionString" : "2.1.46"
+    "CFBundleShortVersionString" : "2.1.47"
   },
   "com.apple.iad.iAdOptOut" : {
     "Container" : "\/private\/var\/mobile\/Containers\/Data\/Application\/C1AC4934-C325-49FE-A142-3A180E81D5E2",
@@ -5388,6 +5356,174 @@
       2
     ],
     "CFBundleName" : "Workbench Ad Tester"
+  },
+  "com.baidu.map" : {
+    "Container" : "\/private\/var\/mobile\/Containers\/Data\/Application\/98E52622-5E68-47C6-9994-FE011F587CDB",
+    "CFBundleIdentifier" : "com.baidu.map",
+    "SignerIdentity" : "Apple iPhone OS Application Signing",
+    "ApplicationType" : "User",
+    "ApplicationDSID" : 413717755,
+    "CFBundleName" : "百度地图",
+    "CFBundleExecutable" : "IphoneCom",
+    "IsUpgradeable" : true,
+    "UISupportedInterfaceOrientations" : [
+      "UIInterfaceOrientationPortrait",
+      "UIInterfaceOrientationLandscapeLeft",
+      "UIInterfaceOrientationLandscapeRight"
+    ],
+    "CFBundleDisplayName" : "百度地图",
+    "MinimumOSVersion" : "8.0",
+    "CFBundleSupportedPlatforms" : [
+      "iPhoneOS"
+    ],
+    "CFBundleURLTypes" : [
+      {
+        "CFBundleTypeRole" : "Editor",
+        "CFBundleURLName" : "com.baidu.map",
+        "CFBundleURLSchemes" : [
+          "tencent101458979"
+        ]
+      },
+      {
+        "CFBundleTypeRole" : "Editor",
+        "CFBundleURLName" : "com.baidu.map",
+        "CFBundleURLSchemes" : [
+          "wb646572927"
+        ]
+      },
+      {
+        "CFBundleTypeRole" : "Editor",
+        "CFBundleURLName" : "com.baidu.map",
+        "CFBundleURLSchemes" : [
+          "wx9a08a4f59ce91bf6"
+        ]
+      },
+      {
+        "CFBundleTypeRole" : "Editor",
+        "CFBundleURLName" : "com.baidu.map",
+        "CFBundleURLSchemes" : [
+          "baidumap"
+        ]
+      },
+      {
+        "CFBundleTypeRole" : "Editor",
+        "CFBundleURLName" : "com.baidu.map",
+        "CFBundleURLSchemes" : [
+          "bdmap"
+        ]
+      },
+      {
+        "CFBundleTypeRole" : "Editor",
+        "CFBundleURLName" : "com.baidu.map",
+        "CFBundleURLSchemes" : [
+          "baidumapWalletPay"
+        ]
+      },
+      {
+        "CFBundleTypeRole" : "Editor",
+        "CFBundleURLName" : "com.baidu.map",
+        "CFBundleURLSchemes" : [
+          "mapbainuo"
+        ]
+      },
+      {
+        "CFBundleTypeRole" : "Editor",
+        "CFBundleURLName" : "com.baidu.map",
+        "CFBundleURLSchemes" : [
+          "prefs"
+        ]
+      }
+    ],
+    "Path" : "\/private\/var\/containers\/Bundle\/Application\/93F9BB20-A811-4C8B-97FB-52CBE8E9D5E9\/IphoneCom.app",
+    "Entitlements" : {
+      "keychain-access-groups" : [
+        "B83JBVZ6M5.com.baidu.shareLoginAccount",
+        "B83JBVZ6M5.com.baidu.lbsmap",
+        "B83JBVZ6M5.com.baidu.mtjgroup",
+        "B83JBVZ6M5.com.baidu.map",
+        "B83JBVZ6M5.com.baidu.baidumobile.cuid"
+      ],
+      "application-identifier" : "B83JBVZ6M5.com.baidu.map",
+      "aps-environment" : "production",
+      "com.apple.developer.associated-domains" : [
+        "applinks:clientmap.baidu.com",
+        "applinks:map.baidu.com",
+        "activitycontinuation:map.baidu.com"
+      ],
+      "com.apple.developer.team-identifier" : "B83JBVZ6M5",
+      "com.apple.security.application-groups" : [
+        "group.com.baidu.map"
+      ]
+    },
+    "UIStatusBarHidden" : true,
+    "UIDeviceFamily" : [
+      1
+    ],
+    "CFBundleShortVersionString" : "10.7.0"
+  },
+  "com.yourcompany.PPClient" : {
+    "Container" : "\/private\/var\/mobile\/Containers\/Data\/Application\/B5AE49F5-7691-4FEE-8173-63DBB05FB996",
+    "CFBundleIdentifier" : "com.yourcompany.PPClient",
+    "SignerIdentity" : "Apple iPhone OS Application Signing",
+    "ApplicationType" : "User",
+    "ApplicationDSID" : 413717755,
+    "CFBundleName" : "PayPal",
+    "CFBundleExecutable" : "PayPal",
+    "IsUpgradeable" : true,
+    "UISupportedInterfaceOrientations" : [
+      "UIInterfaceOrientationPortrait"
+    ],
+    "CFBundleDisplayName" : "PayPal",
+    "MinimumOSVersion" : "9.3",
+    "CFBundleSupportedPlatforms" : [
+      "iPhoneOS"
+    ],
+    "CFBundleURLTypes" : [
+      {
+        "CFBundleURLSchemes" : [
+          "paypal",
+          "paypalInternal",
+          "paypalWalletInternal"
+        ]
+      },
+      {
+        "CFBundleURLSchemes" : [
+          "com.paypal.ppclient.touch.v3"
+        ]
+      },
+      {
+        "CFBundleTypeRole" : "Editor",
+        "CFBundleURLSchemes" : [
+          "prefs"
+        ]
+      }
+    ],
+    "Path" : "\/private\/var\/containers\/Bundle\/Application\/2C6A0856-9F2C-4C14-A3EC-38407FAC0F14\/PayPal.app",
+    "HasSettingsBundle" : true,
+    "Entitlements" : {
+      "keychain-access-groups" : [
+        "7JMU3EK8QX.com.yourcompany.PPClient"
+      ],
+      "com.apple.developer.team-identifier" : "727K56WV67",
+      "com.apple.developer.default-data-protection" : "NSFileProtectionComplete",
+      "application-identifier" : "7JMU3EK8QX.com.yourcompany.PPClient",
+      "com.apple.developer.associated-domains" : [
+        "applinks:www.paypal.com",
+        "applinks:658473abd74bd979afcfe472c595ce93.ulink.adjust.com",
+        "applinks:a94828c6a08d914296a1d178d1de5102.ulink.adjust.com",
+        "applinks:qqrp.adj.st",
+        "applinks:sxj8.adj.st"
+      ],
+      "com.apple.security.application-groups" : [
+        "group.com.yourcompany.PPClient"
+      ],
+      "aps-environment" : "production"
+    },
+    "UIDeviceFamily" : [
+      1
+    ],
+    "UIStatusBarHidden" : true,
+    "CFBundleShortVersionString" : "6.25.0"
   },
   "com.apple.MobileStore" : {
     "Container" : "\/private\/var\/mobile\/Containers\/Data\/Application\/BBBAE38B-7539-4893-9AD1-C433641848EE",
@@ -5489,142 +5625,6 @@
       2
     ],
     "CFBundleName" : "iTunes Store"
-  },
-  "com.yourcompany.PPClient" : {
-    "Container" : "\/private\/var\/mobile\/Containers\/Data\/Application\/B5AE49F5-7691-4FEE-8173-63DBB05FB996",
-    "CFBundleIdentifier" : "com.yourcompany.PPClient",
-    "SignerIdentity" : "Apple iPhone OS Application Signing",
-    "ApplicationType" : "User",
-    "ApplicationDSID" : 413717755,
-    "CFBundleName" : "PayPal",
-    "CFBundleExecutable" : "PayPal",
-    "IsUpgradeable" : true,
-    "UISupportedInterfaceOrientations" : [
-      "UIInterfaceOrientationPortrait"
-    ],
-    "CFBundleDisplayName" : "PayPal",
-    "MinimumOSVersion" : "9.3",
-    "CFBundleSupportedPlatforms" : [
-      "iPhoneOS"
-    ],
-    "CFBundleURLTypes" : [
-      {
-        "CFBundleURLSchemes" : [
-          "paypal",
-          "paypalInternal",
-          "paypalWalletInternal"
-        ]
-      },
-      {
-        "CFBundleURLSchemes" : [
-          "com.paypal.ppclient.touch.v3"
-        ]
-      },
-      {
-        "CFBundleTypeRole" : "Editor",
-        "CFBundleURLSchemes" : [
-          "prefs"
-        ]
-      }
-    ],
-    "Path" : "\/private\/var\/containers\/Bundle\/Application\/2C6A0856-9F2C-4C14-A3EC-38407FAC0F14\/PayPal.app",
-    "HasSettingsBundle" : true,
-    "Entitlements" : {
-      "keychain-access-groups" : [
-        "7JMU3EK8QX.com.yourcompany.PPClient"
-      ],
-      "com.apple.developer.team-identifier" : "727K56WV67",
-      "com.apple.developer.default-data-protection" : "NSFileProtectionComplete",
-      "application-identifier" : "7JMU3EK8QX.com.yourcompany.PPClient",
-      "com.apple.developer.associated-domains" : [
-        "applinks:www.paypal.com",
-        "applinks:658473abd74bd979afcfe472c595ce93.ulink.adjust.com",
-        "applinks:a94828c6a08d914296a1d178d1de5102.ulink.adjust.com",
-        "applinks:qqrp.adj.st",
-        "applinks:sxj8.adj.st"
-      ],
-      "com.apple.security.application-groups" : [
-        "group.com.yourcompany.PPClient"
-      ],
-      "aps-environment" : "production"
-    },
-    "UIDeviceFamily" : [
-      1
-    ],
-    "UIStatusBarHidden" : true,
-    "CFBundleShortVersionString" : "6.25.0"
-  },
-  "com.apple.clips" : {
-    "Container" : "\/private\/var\/mobile\/Containers\/Data\/Application\/14CD3CE4-1A40-4A38-8ABD-2B3CE566BDB5",
-    "CFBundleIdentifier" : "com.apple.clips",
-    "SignerIdentity" : "Apple iPhone OS Application Signing",
-    "ApplicationType" : "User",
-    "ApplicationDSID" : 413717755,
-    "CFBundleName" : "Clips",
-    "CFBundleExecutable" : "Clips",
-    "IsUpgradeable" : true,
-    "UISupportedInterfaceOrientations" : [
-      "UIInterfaceOrientationPortrait"
-    ],
-    "CFBundleDisplayName" : "Clips",
-    "MinimumOSVersion" : "11.1",
-    "CFBundleSupportedPlatforms" : [
-      "iPhoneOS"
-    ],
-    "CFBundleURLTypes" : [
-      {
-        "CFBundleTypeRole" : "Editor",
-        "CFBundleURLSchemes" : [
-          "com.googleusercontent.apps.806817107758-edh1lj4e1aifibmvaoqs8a4ts4q9k213"
-        ]
-      },
-      {
-        "CFBundleTypeRole" : "Viewer",
-        "CFBundleURLSchemes" : [
-          "clips"
-        ]
-      }
-    ],
-    "Path" : "\/private\/var\/containers\/Bundle\/Application\/8E94F7D5-509F-43EF-90E2-27431B44078F\/Clips.app",
-    "HasSettingsBundle" : true,
-    "Entitlements" : {
-      "com.apple.coreduetd.allow" : true,
-      "com.apple.private.assetsd.xpcstore_restricted.access" : [
-        "photos.person"
-      ],
-      "com.apple.coreduetd.people" : true,
-      "com.apple.accounts.appleaccount.fullaccess" : true,
-      "com.apple.developer.icloud-container-environment" : "Production",
-      "com.apple.private.tcc.allow" : [
-        "kTCCServicePhotos",
-        "kTCCServiceCamera",
-        "kTCCServiceMicrophone",
-        "kTCCServiceAddressBook",
-        "kTCCServiceMediaLibrary",
-        "kTCCServiceSpeechRecognition"
-      ],
-      "com.apple.developer.ubiquity-container-identifiers" : [
-        "iCloud.com.apple.clips"
-      ],
-      "com.apple.private.assets.accessible-asset-types" : [
-        "com.apple.MobileAsset.VideoAppsMusicAssets",
-        "com.apple.MobileAsset.VideoAppsMusicAssets2"
-      ],
-      "com.apple.developer.team-identifier" : "82J93X7T25",
-      "com.apple.itunesstored.private" : true,
-      "application-identifier" : "82J93X7T25.com.apple.clips",
-      "com.apple.private.contactsui" : true,
-      "com.apple.springboard.opensensitiveurl" : true,
-      "com.apple.networking.vpn.configuration" : [
-        "com.apple.MobileAsset.VideoAppsMusicAssets",
-        "com.apple.MobileAsset.VideoAppsMusicAssets2"
-      ]
-    },
-    "UIDeviceFamily" : [
-      1,
-      2
-    ],
-    "CFBundleShortVersionString" : "2.0.3"
   },
   "com.apple.ios.StoreKitUIService" : {
     "Container" : "\/private\/var\/mobile\/Containers\/Data\/Application\/6A9E9D01-7657-42A0-9A79-9D7785BD7D97",
@@ -5996,7 +5996,7 @@
     "CFBundleName" : "CTCarrierSpaceAuth"
   },
   "com.grubhub.search" : {
-    "Container" : "\/private\/var\/mobile\/Containers\/Data\/Application\/00B70140-72D9-4150-A4AE-CD318EEFC7F7",
+    "Container" : "\/private\/var\/mobile\/Containers\/Data\/Application\/0178F0A1-BE2F-46D4-B731-6B2FAD1DA9FC",
     "CFBundleIdentifier" : "com.grubhub.search",
     "SignerIdentity" : "Apple iPhone OS Application Signing",
     "ApplicationType" : "User",
@@ -6076,7 +6076,7 @@
 
       }
     ],
-    "Path" : "\/private\/var\/containers\/Bundle\/Application\/7F22CB71-C06B-4B16-9DAC-330B25A729B4\/GrubHub.app",
+    "Path" : "\/private\/var\/containers\/Bundle\/Application\/0DD00F73-D33E-46F5-8758-C0D59F7653F3\/GrubHub.app",
     "Entitlements" : {
       "application-identifier" : "R8P2F5WUB5.com.grubhub.search",
       "aps-environment" : "production",
@@ -6099,7 +6099,7 @@
       1,
       2
     ],
-    "CFBundleShortVersionString" : "908.7.4"
+    "CFBundleShortVersionString" : "910.7.5"
   },
   "com.apple.HealthPrivacyService" : {
     "Container" : "\/private\/var\/mobile\/Containers\/Data\/Application\/13C9F641-7AC3-4926-9C3C-C0236788EE17",
@@ -6961,7 +6961,7 @@
     "CFBundleName" : "Compass"
   },
   "com.burbn.instagram" : {
-    "Container" : "\/private\/var\/mobile\/Containers\/Data\/Application\/924EC536-02DC-4E61-ACB3-0DD2F68128A0",
+    "Container" : "\/private\/var\/mobile\/Containers\/Data\/Application\/17F574FE-04C3-428B-AFB9-B2F399D412D5",
     "CFBundleIdentifier" : "com.burbn.instagram",
     "SignerIdentity" : "Apple iPhone OS Application Signing",
     "ApplicationType" : "User",
@@ -6991,7 +6991,7 @@
         "CFBundleURLName" : "com.burbn.instagram"
       }
     ],
-    "Path" : "\/private\/var\/containers\/Bundle\/Application\/44E6FFD5-D623-4038-80FD-3C2781919A71\/Instagram.app",
+    "Path" : "\/private\/var\/containers\/Bundle\/Application\/070AAE32-F480-44E7-9F6C-1694959E8FBA\/Instagram.app",
     "Entitlements" : {
       "com.apple.developer.ubiquity-container-identifiers" : [
         "iCloud.com.burbn.instagram"
@@ -7024,7 +7024,7 @@
     "UIDeviceFamily" : [
       1
     ],
-    "CFBundleShortVersionString" : "43.0"
+    "CFBundleShortVersionString" : "44.0"
   },
   "com.apple.PreBoard" : {
     "CFBundleShortVersionString" : "1.0",
@@ -7313,7 +7313,7 @@
     "CFBundleShortVersionString" : "66.3359.122"
   },
   "com.airbnb.app" : {
-    "Container" : "\/private\/var\/mobile\/Containers\/Data\/Application\/FB369C35-B2D4-4849-9269-4FF2279D4A63",
+    "Container" : "\/private\/var\/mobile\/Containers\/Data\/Application\/52F342C7-765D-4DE0-8794-909095BE7D63",
     "CFBundleIdentifier" : "com.airbnb.app",
     "SignerIdentity" : "Apple iPhone OS Application Signing",
     "ApplicationType" : "User",
@@ -7343,7 +7343,7 @@
         ]
       }
     ],
-    "Path" : "\/private\/var\/containers\/Bundle\/Application\/1355E8CF-81C5-4283-84ED-8C8A3C6F6887\/Airbnb.app",
+    "Path" : "\/private\/var\/containers\/Bundle\/Application\/CC00F0EF-25E1-438C-814E-A3F042B24963\/Airbnb.app",
     "Entitlements" : {
       "keychain-access-groups" : [
         "KYLDQ3QJT3.com.airbnb.app",
@@ -7458,7 +7458,7 @@
       1,
       2
     ],
-    "CFBundleShortVersionString" : "18.18"
+    "CFBundleShortVersionString" : "18.19"
   },
   "com.apple.Diagnostics" : {
     "Container" : "\/private\/var\/mobile\/Containers\/Data\/Application\/071D8A53-5B9B-4FF4-9A84-008CDD3721EE",
@@ -7574,7 +7574,7 @@
     "CFBundleName" : "Diagnostics"
   },
   "com.dianping.dpscope" : {
-    "Container" : "\/private\/var\/mobile\/Containers\/Data\/Application\/47450D12-CAC9-4DB4-A323-B0508C92E2F5",
+    "Container" : "\/private\/var\/mobile\/Containers\/Data\/Application\/E27D13D5-CB88-433C-A57B-853507538C5A",
     "CFBundleIdentifier" : "com.dianping.dpscope",
     "SignerIdentity" : "Apple iPhone OS Application Signing",
     "ApplicationType" : "User",
@@ -7694,7 +7694,7 @@
         ]
       }
     ],
-    "Path" : "\/private\/var\/containers\/Bundle\/Application\/2302A0FB-D855-40BE-9D09-3357A2EA18FC\/DPScope.app",
+    "Path" : "\/private\/var\/containers\/Bundle\/Application\/E0DEE32B-13F6-4E47-BBE5-E07F718E63F0\/DPScope.app",
     "Entitlements" : {
       "aps-environment" : "production",
       "com.apple.developer.pass-type-identifiers" : [
@@ -7727,7 +7727,7 @@
       1,
       2
     ],
-    "CFBundleShortVersionString" : "10.0.1"
+    "CFBundleShortVersionString" : "10.1.1"
   },
   "com.bloomingdales.mobile" : {
     "Container" : "\/private\/var\/mobile\/Containers\/Data\/Application\/0BD18D14-F384-4AF0-B641-F52952C54F18",
@@ -8174,7 +8174,7 @@
     "CFBundleShortVersionString" : "1.0.6"
   },
   "com.alipay.iphoneclient" : {
-    "Container" : "\/private\/var\/mobile\/Containers\/Data\/Application\/A5E2E2D6-022C-414F-AEAB-E3BC81D930EA",
+    "Container" : "\/private\/var\/mobile\/Containers\/Data\/Application\/0420C44A-C2B0-49C6-A7D4-09AA235E7733",
     "CFBundleIdentifier" : "com.alipay.iphoneclient",
     "SignerIdentity" : "Apple iPhone OS Application Signing",
     "ApplicationType" : "User",
@@ -8248,7 +8248,7 @@
         ]
       }
     ],
-    "Path" : "\/private\/var\/containers\/Bundle\/Application\/6C9346C2-BCAA-40B3-9DA1-2463D58729F1\/AlipayWallet.app",
+    "Path" : "\/private\/var\/containers\/Bundle\/Application\/8E0BF324-1AF5-4FDA-8192-80E7DC2C5888\/AlipayWallet.app",
     "Entitlements" : {
       "keychain-access-groups" : [
         "8H6B3SFEU4.com.ali.group"
@@ -8282,7 +8282,7 @@
       1,
       2
     ],
-    "CFBundleShortVersionString" : "10.1.20"
+    "CFBundleShortVersionString" : "10.1.22"
   },
   "com.apple.family" : {
     "CFBundleShortVersionString" : "1.0",
@@ -8529,40 +8529,116 @@
     ],
     "CFBundleName" : "CompassCalibrationViewService"
   },
-  "com.apple.susuiservice" : {
-    "CFBundleShortVersionString" : "1.0",
-    "CFBundleIdentifier" : "com.apple.susuiservice",
-    "ApplicationType" : "System",
-    "CFBundleExecutable" : "SoftwareUpdateUIService",
-    "IsUpgradeable" : false,
+  "com.ebates.EbatesMobile" : {
+    "Container" : "\/private\/var\/mobile\/Containers\/Data\/Application\/C5CC4A40-A599-4A72-B35E-7EC76DA3EFC5",
+    "CFBundleIdentifier" : "com.ebates.EbatesMobile",
+    "SignerIdentity" : "Apple iPhone OS Application Signing",
+    "ApplicationType" : "User",
+    "ApplicationDSID" : 413717755,
+    "CFBundleName" : "Ebates",
+    "CFBundleExecutable" : "Ebates",
+    "IsUpgradeable" : true,
     "UISupportedInterfaceOrientations" : [
       "UIInterfaceOrientationPortrait",
       "UIInterfaceOrientationLandscapeLeft",
       "UIInterfaceOrientationLandscapeRight"
     ],
-    "CFBundleDisplayName" : "SoftwareUpdateUIService",
-    "MinimumOSVersion" : "11.2",
+    "CFBundleDisplayName" : "Ebates",
+    "MinimumOSVersion" : "9.0",
     "CFBundleSupportedPlatforms" : [
       "iPhoneOS"
     ],
-    "Path" : "\/Applications\/SoftwareUpdateUIService.app",
+    "CFBundleURLTypes" : [
+      {
+        "CFBundleTypeRole" : "Editor",
+        "CFBundleURLName" : "com.ebates",
+        "CFBundleURLSchemes" : [
+          "aso723134859"
+        ]
+      },
+      {
+        "CFBundleURLSchemes" : [
+          "fb214330088590858",
+          "fb274245352674978",
+          "fb487820901245940",
+          "fb584854271548612",
+          "fb1405136703033475",
+          "fb394296650632320",
+          "fb295351560627776",
+          "fb1646065385626871",
+          "fb1646065708960172",
+          "fb167954733267416"
+        ]
+      },
+      {
+        "CFBundleTypeRole" : "Editor",
+        "CFBundleURLName" : "com.ebates.EbatesMobile",
+        "CFBundleURLSchemes" : [
+          "ebates"
+        ]
+      },
+      {
+        "CFBundleTypeRole" : "Editor",
+        "CFBundleURLName" : "com.ebates.EbatesMobile",
+        "CFBundleURLSchemes" : [
+          "com.ebates.EbatesMobile"
+        ]
+      },
+      {
+        "CFBundleTypeRole" : "Editor",
+        "CFBundleURLName" : "com.ebates.Ebates-QA",
+        "CFBundleURLSchemes" : [
+          "com.ebates.Ebates-QA"
+        ]
+      },
+      {
+        "CFBundleTypeRole" : "Editor",
+        "CFBundleURLName" : "com.ebates.EbatesMobile.GoogleSignInProd",
+        "CFBundleURLSchemes" : [
+          "com.googleusercontent.apps.51014805214-lbjof4irit4gqpd26k3sb9t5062r1tqg",
+          "com.googleusercontent.apps.51014805214-glpbrr07fap12a0kqkn62ir65c5kqijc"
+        ]
+      },
+      {
+        "CFBundleTypeRole" : "Editor",
+        "CFBundleURLName" : "io.branch.sdk",
+        "CFBundleURLSchemes" : [
+          "ebates"
+        ]
+      },
+      {
+        "CFBundleURLName" : "com.ebates.EbatesMobile",
+        "CFBundleURLSchemes" : [
+          "com.ebates.EbatesMobile"
+        ]
+      }
+    ],
+    "Path" : "\/private\/var\/containers\/Bundle\/Application\/73B1DCBB-E998-4115-B751-748163E33C20\/Ebates.app",
     "Entitlements" : {
-      "com.apple.private.bmk.allow" : true,
-      "com.apple.frontboard.launchapplications" : true,
-      "com.apple.UIKit.vends-view-services" : true,
-      "com.apple.springboard.openurlswhenlocked" : true,
-      "com.apple.keystore.device" : true,
-      "com.apple.springboard.appbackgroundstyle" : "YES",
-      "com.apple.springboard.opensensitiveurl" : true,
-      "com.apple.springboard.activateRemoteAlert" : true,
-      "com.apple.keystore.stash.access" : true,
-      "com.apple.QuartzCore.secure-mode" : true
+      "keychain-access-groups" : [
+        "8SV35BWXT7.com.ebates.EbatesMobile"
+      ],
+      "application-identifier" : "8SV35BWXT7.com.ebates.EbatesMobile",
+      "aps-environment" : "production",
+      "com.apple.developer.associated-domains" : [
+        "applinks:www.ebates.com",
+        "applinks:47ebd08fd0e984a99e229273aa899b2e.ulink.adjust.com",
+        "applinks:go.ebat.es",
+        "applinks:q8s3-alternate.app.link",
+        "applinks:0ruq.app.link",
+        "applinks:0ruq-alternate.app.link",
+        "applinks:clicked.ebates.com"
+      ],
+      "com.apple.developer.team-identifier" : "8SV35BWXT7",
+      "com.apple.security.application-groups" : [
+        "group.com.ebates.EbatesMobile"
+      ]
     },
     "UIDeviceFamily" : [
       1,
       2
     ],
-    "CFBundleName" : "SoftwareUpdateUIService"
+    "CFBundleShortVersionString" : "4.26.0"
   },
   "com.apple.mobileslideshow" : {
     "CFBundleShortVersionString" : "1.0.0",
@@ -8704,6 +8780,41 @@
       2
     ],
     "CFBundleName" : "Photos"
+  },
+  "com.apple.susuiservice" : {
+    "CFBundleShortVersionString" : "1.0",
+    "CFBundleIdentifier" : "com.apple.susuiservice",
+    "ApplicationType" : "System",
+    "CFBundleExecutable" : "SoftwareUpdateUIService",
+    "IsUpgradeable" : false,
+    "UISupportedInterfaceOrientations" : [
+      "UIInterfaceOrientationPortrait",
+      "UIInterfaceOrientationLandscapeLeft",
+      "UIInterfaceOrientationLandscapeRight"
+    ],
+    "CFBundleDisplayName" : "SoftwareUpdateUIService",
+    "MinimumOSVersion" : "11.2",
+    "CFBundleSupportedPlatforms" : [
+      "iPhoneOS"
+    ],
+    "Path" : "\/Applications\/SoftwareUpdateUIService.app",
+    "Entitlements" : {
+      "com.apple.private.bmk.allow" : true,
+      "com.apple.frontboard.launchapplications" : true,
+      "com.apple.UIKit.vends-view-services" : true,
+      "com.apple.springboard.openurlswhenlocked" : true,
+      "com.apple.keystore.device" : true,
+      "com.apple.springboard.appbackgroundstyle" : "YES",
+      "com.apple.springboard.opensensitiveurl" : true,
+      "com.apple.springboard.activateRemoteAlert" : true,
+      "com.apple.keystore.stash.access" : true,
+      "com.apple.QuartzCore.secure-mode" : true
+    },
+    "UIDeviceFamily" : [
+      1,
+      2
+    ],
+    "CFBundleName" : "SoftwareUpdateUIService"
   },
   "com.apple.Music" : {
     "Container" : "\/private\/var\/mobile\/Containers\/Data\/Application\/C2AC0839-E08B-4372-9FF1-E979D3850D47",
@@ -8876,117 +8987,6 @@
     ],
     "CFBundleName" : "Music"
   },
-  "com.ebates.EbatesMobile" : {
-    "Container" : "\/private\/var\/mobile\/Containers\/Data\/Application\/C5CC4A40-A599-4A72-B35E-7EC76DA3EFC5",
-    "CFBundleIdentifier" : "com.ebates.EbatesMobile",
-    "SignerIdentity" : "Apple iPhone OS Application Signing",
-    "ApplicationType" : "User",
-    "ApplicationDSID" : 413717755,
-    "CFBundleName" : "Ebates",
-    "CFBundleExecutable" : "Ebates",
-    "IsUpgradeable" : true,
-    "UISupportedInterfaceOrientations" : [
-      "UIInterfaceOrientationPortrait",
-      "UIInterfaceOrientationLandscapeLeft",
-      "UIInterfaceOrientationLandscapeRight"
-    ],
-    "CFBundleDisplayName" : "Ebates",
-    "MinimumOSVersion" : "9.0",
-    "CFBundleSupportedPlatforms" : [
-      "iPhoneOS"
-    ],
-    "CFBundleURLTypes" : [
-      {
-        "CFBundleTypeRole" : "Editor",
-        "CFBundleURLName" : "com.ebates",
-        "CFBundleURLSchemes" : [
-          "aso723134859"
-        ]
-      },
-      {
-        "CFBundleURLSchemes" : [
-          "fb214330088590858",
-          "fb274245352674978",
-          "fb487820901245940",
-          "fb584854271548612",
-          "fb1405136703033475",
-          "fb394296650632320",
-          "fb295351560627776",
-          "fb1646065385626871",
-          "fb1646065708960172",
-          "fb167954733267416"
-        ]
-      },
-      {
-        "CFBundleTypeRole" : "Editor",
-        "CFBundleURLName" : "com.ebates.EbatesMobile",
-        "CFBundleURLSchemes" : [
-          "ebates"
-        ]
-      },
-      {
-        "CFBundleTypeRole" : "Editor",
-        "CFBundleURLName" : "com.ebates.EbatesMobile",
-        "CFBundleURLSchemes" : [
-          "com.ebates.EbatesMobile"
-        ]
-      },
-      {
-        "CFBundleTypeRole" : "Editor",
-        "CFBundleURLName" : "com.ebates.Ebates-QA",
-        "CFBundleURLSchemes" : [
-          "com.ebates.Ebates-QA"
-        ]
-      },
-      {
-        "CFBundleTypeRole" : "Editor",
-        "CFBundleURLName" : "com.ebates.EbatesMobile.GoogleSignInProd",
-        "CFBundleURLSchemes" : [
-          "com.googleusercontent.apps.51014805214-lbjof4irit4gqpd26k3sb9t5062r1tqg",
-          "com.googleusercontent.apps.51014805214-glpbrr07fap12a0kqkn62ir65c5kqijc"
-        ]
-      },
-      {
-        "CFBundleTypeRole" : "Editor",
-        "CFBundleURLName" : "io.branch.sdk",
-        "CFBundleURLSchemes" : [
-          "ebates"
-        ]
-      },
-      {
-        "CFBundleURLName" : "com.ebates.EbatesMobile",
-        "CFBundleURLSchemes" : [
-          "com.ebates.EbatesMobile"
-        ]
-      }
-    ],
-    "Path" : "\/private\/var\/containers\/Bundle\/Application\/73B1DCBB-E998-4115-B751-748163E33C20\/Ebates.app",
-    "Entitlements" : {
-      "keychain-access-groups" : [
-        "8SV35BWXT7.com.ebates.EbatesMobile"
-      ],
-      "application-identifier" : "8SV35BWXT7.com.ebates.EbatesMobile",
-      "aps-environment" : "production",
-      "com.apple.developer.associated-domains" : [
-        "applinks:www.ebates.com",
-        "applinks:47ebd08fd0e984a99e229273aa899b2e.ulink.adjust.com",
-        "applinks:go.ebat.es",
-        "applinks:q8s3-alternate.app.link",
-        "applinks:0ruq.app.link",
-        "applinks:0ruq-alternate.app.link",
-        "applinks:clicked.ebates.com"
-      ],
-      "com.apple.developer.team-identifier" : "8SV35BWXT7",
-      "com.apple.security.application-groups" : [
-        "group.com.ebates.EbatesMobile"
-      ]
-    },
-    "UIDeviceFamily" : [
-      1,
-      2
-    ],
-    "CFBundleShortVersionString" : "4.26.0"
-  },
   "com.studentuniverse.triplingo" : {
     "Container" : "\/private\/var\/mobile\/Containers\/Data\/Application\/7EBDA26B-4F74-4CE6-9F8C-6E17EAB61055",
     "CFBundleIdentifier" : "com.studentuniverse.triplingo",
@@ -9040,7 +9040,7 @@
     "CFBundleShortVersionString" : "4.4.2"
   },
   "com.tinyspeck.chatlyio" : {
-    "Container" : "\/private\/var\/mobile\/Containers\/Data\/Application\/611455B9-176E-4B28-8477-78B2317FE71C",
+    "Container" : "\/private\/var\/mobile\/Containers\/Data\/Application\/023CED36-DCFC-4210-86C5-9770859090CE",
     "CFBundleIdentifier" : "com.tinyspeck.chatlyio",
     "SignerIdentity" : "Apple iPhone OS Application Signing",
     "ApplicationType" : "User",
@@ -9071,7 +9071,7 @@
         ]
       }
     ],
-    "Path" : "\/private\/var\/containers\/Bundle\/Application\/D0BDED88-EC58-44AE-B83C-1614CAA0F83E\/Slack.app",
+    "Path" : "\/private\/var\/containers\/Bundle\/Application\/3FF82FCE-4326-4F1C-AE0D-548867413F24\/Slack.app",
     "HasSettingsBundle" : true,
     "Entitlements" : {
       "com.apple.developer.ubiquity-container-identifiers" : [
@@ -9108,7 +9108,7 @@
       1,
       2
     ],
-    "CFBundleShortVersionString" : "3.42"
+    "CFBundleShortVersionString" : "3.43"
   },
   "com.apple.Home" : {
     "CFBundleShortVersionString" : "1.0",
@@ -10618,7 +10618,7 @@
     "CFBundleShortVersionString" : "4.14.0"
   },
   "com.google.Sheets" : {
-    "Container" : "\/private\/var\/mobile\/Containers\/Data\/Application\/A1D0E7D4-6566-42E5-AFE4-4615E3227A72",
+    "Container" : "\/private\/var\/mobile\/Containers\/Data\/Application\/4F9B8EDB-EC1E-45EE-850B-45F181EE259A",
     "CFBundleIdentifier" : "com.google.Sheets",
     "SignerIdentity" : "Apple iPhone OS Application Signing",
     "ApplicationType" : "User",
@@ -10633,7 +10633,7 @@
       "UIInterfaceOrientationLandscapeRight"
     ],
     "CFBundleDisplayName" : "Sheets",
-    "MinimumOSVersion" : "9.0",
+    "MinimumOSVersion" : "10.0",
     "CFBundleSupportedPlatforms" : [
       "iPhoneOS"
     ],
@@ -10651,7 +10651,7 @@
         ]
       }
     ],
-    "Path" : "\/private\/var\/containers\/Bundle\/Application\/BA2B3F93-7976-4704-8020-7583710A312C\/Sheets.app",
+    "Path" : "\/private\/var\/containers\/Bundle\/Application\/FE07A789-9767-4032-9703-98486646E16E\/Sheets.app",
     "Entitlements" : {
       "com.apple.developer.ubiquity-container-identifiers" : [
         "iCloud.com.google.container"
@@ -10681,7 +10681,7 @@
       1,
       2
     ],
-    "CFBundleShortVersionString" : "1.2018.16203"
+    "CFBundleShortVersionString" : "1.2018.18202"
   },
   "com.apple.appleseed.FeedbackAssistant" : {
     "CFBundleShortVersionString" : "2.0",
@@ -11189,7 +11189,7 @@
     "CFBundleShortVersionString" : "6.11.0"
   },
   "net.kortina.labs.Venmo" : {
-    "Container" : "\/private\/var\/mobile\/Containers\/Data\/Application\/479272AE-4438-404D-9511-CC35E5F8DCE8",
+    "Container" : "\/private\/var\/mobile\/Containers\/Data\/Application\/46890155-2353-4CE3-BB4D-4D204682F488",
     "CFBundleIdentifier" : "net.kortina.labs.Venmo",
     "SignerIdentity" : "Apple iPhone OS Application Signing",
     "ApplicationType" : "User",
@@ -11235,7 +11235,7 @@
         ]
       }
     ],
-    "Path" : "\/private\/var\/containers\/Bundle\/Application\/0C8F617C-AFA3-4453-B771-03CCF80018E6\/Venmo.app",
+    "Path" : "\/private\/var\/containers\/Bundle\/Application\/C3DA2AEA-5568-446B-9B32-29999C098CFA\/Venmo.app",
     "Entitlements" : {
       "aps-environment" : "production",
       "com.apple.developer.associated-domains" : [
@@ -11258,7 +11258,7 @@
       1,
       2
     ],
-    "CFBundleShortVersionString" : "7.16.0"
+    "CFBundleShortVersionString" : "7.16.1"
   },
   "com.apple.mobilesafari" : {
     "Container" : "\/private\/var\/mobile\/Containers\/Data\/Application\/BB59B5E9-691C-487D-8B74-45D887BFDF40",
@@ -11512,7 +11512,7 @@
     "CFBundleName" : "Tips"
   },
   "com.starbucks.mystarbucks" : {
-    "Container" : "\/private\/var\/mobile\/Containers\/Data\/Application\/0BBBC5CF-BB7C-48CE-973A-ED3CDB0CC834",
+    "Container" : "\/private\/var\/mobile\/Containers\/Data\/Application\/90484314-83F6-4D9E-83B8-B8BCBBF7A220",
     "CFBundleIdentifier" : "com.starbucks.mystarbucks",
     "SignerIdentity" : "Apple iPhone OS Application Signing",
     "ApplicationType" : "User",
@@ -11550,7 +11550,7 @@
         ]
       }
     ],
-    "Path" : "\/private\/var\/containers\/Bundle\/Application\/B7F65FC3-2748-4C5B-9CB8-1880DF6B0AF2\/Starbucks.app",
+    "Path" : "\/private\/var\/containers\/Bundle\/Application\/A38E3E7D-A064-4DD8-85F2-41378B1C7651\/Starbucks.app",
     "HasSettingsBundle" : true,
     "Entitlements" : {
       "keychain-access-groups" : [
@@ -11580,7 +11580,7 @@
       1
     ],
     "UIStatusBarHidden" : false,
-    "CFBundleShortVersionString" : "4.8"
+    "CFBundleShortVersionString" : "4.8.1"
   },
   "com.apple.facetime" : {
     "Container" : "\/private\/var\/mobile\/Containers\/Data\/Application\/9119DD9E-762A-4698-B3FD-9E8B3009036C",
@@ -11805,7 +11805,7 @@
     "CFBundleShortVersionString" : "2.7.1"
   },
   "co.visualsupply.cam" : {
-    "Container" : "\/private\/var\/mobile\/Containers\/Data\/Application\/DE9A6F4C-B5D1-48AA-B066-C33DF55BA0BF",
+    "Container" : "\/private\/var\/mobile\/Containers\/Data\/Application\/1AF844BF-1CB0-4816-A04E-1955B205FBB1",
     "CFBundleIdentifier" : "co.visualsupply.cam",
     "SignerIdentity" : "Apple iPhone OS Application Signing",
     "ApplicationType" : "User",
@@ -11835,7 +11835,7 @@
         ]
       }
     ],
-    "Path" : "\/private\/var\/containers\/Bundle\/Application\/2A0B79E7-EE82-4EE9-9B6E-F3ACA9963D67\/VSCO.app",
+    "Path" : "\/private\/var\/containers\/Bundle\/Application\/5FA453BB-1E23-4316-BD74-75F0074ECCCD\/VSCO.app",
     "Entitlements" : {
       "keychain-access-groups" : [
         "NCGELS6998.co.visualsupply.cam",
@@ -11863,7 +11863,7 @@
       1,
       2
     ],
-    "CFBundleShortVersionString" : "59.1"
+    "CFBundleShortVersionString" : "59.3"
   },
   "com.apple.mobilemail" : {
     "Container" : "\/private\/var\/mobile\/Containers\/Data\/Application\/A4DA266D-59EB-44BB-BCC8-27F21E3F1A45",
@@ -12688,7 +12688,7 @@
     "CFBundleName" : "User Authentication"
   },
   "com.starwoodhotels.spg" : {
-    "Container" : "\/private\/var\/mobile\/Containers\/Data\/Application\/4D55D8D0-27FD-4243-9AEF-8F1756E92997",
+    "Container" : "\/private\/var\/mobile\/Containers\/Data\/Application\/64D0D4F3-8C4A-442E-BE10-9CAD59B23CE8",
     "CFBundleIdentifier" : "com.starwoodhotels.spg",
     "SignerIdentity" : "Apple iPhone OS Application Signing",
     "ApplicationType" : "User",
@@ -12712,7 +12712,7 @@
         ]
       }
     ],
-    "Path" : "\/private\/var\/containers\/Bundle\/Application\/6AC78FD8-6FEC-4DC0-B439-FE8B4852C1E0\/SPG.app",
+    "Path" : "\/private\/var\/containers\/Bundle\/Application\/0098CE0D-BC77-43DA-A3B7-39371C03740D\/SPG.app",
     "Entitlements" : {
       "keychain-access-groups" : [
         "FQ4WT6TGR2.group.com.starwoodhotels.spg"
@@ -12729,166 +12729,6 @@
       1,
       2
     ],
-    "CFBundleShortVersionString" : "7.1.4"
-  },
-  "com.youku.YouKu" : {
-    "Container" : "\/private\/var\/mobile\/Containers\/Data\/Application\/5AC6C816-B560-4C6B-A00B-F847D152C5C6",
-    "CFBundleIdentifier" : "com.youku.YouKu",
-    "SignerIdentity" : "Apple iPhone OS Application Signing",
-    "ApplicationType" : "User",
-    "ApplicationDSID" : 413717755,
-    "CFBundleName" : "YOUKU",
-    "CFBundleExecutable" : "Youkui4Phone",
-    "IsUpgradeable" : true,
-    "UISupportedInterfaceOrientations" : [
-      "UIInterfaceOrientationPortrait"
-    ],
-    "CFBundleDisplayName" : "YOUKU",
-    "MinimumOSVersion" : "8.0",
-    "CFBundleSupportedPlatforms" : [
-      "iPhoneOS"
-    ],
-    "CFBundleURLTypes" : [
-      {
-        "CFBundleTypeRole" : "Editor",
-        "CFBundleURLName" : "com.weibo",
-        "CFBundleURLSchemes" : [
-          "wb4203991030"
-        ]
-      },
-      {
-        "CFBundleTypeRole" : "Editor",
-        "CFBundleURLName" : "yixin",
-        "CFBundleURLSchemes" : [
-          "yx7fdbdd4edcce44ad9146939aa5d72729"
-        ]
-      },
-      {
-        "CFBundleTypeRole" : "Editor",
-        "CFBundleURLName" : "com.youku.youku",
-        "CFBundleURLSchemes" : [
-          "youku"
-        ]
-      },
-      {
-        "CFBundleTypeRole" : "Editor",
-        "CFBundleURLName" : "tencentopenapi",
-        "CFBundleURLSchemes" : [
-          "tencent200004"
-        ]
-      },
-      {
-        "CFBundleTypeRole" : "Editor",
-        "CFBundleURLName" : "weixin",
-        "CFBundleURLSchemes" : [
-          "wxa77232e51741dee3"
-        ]
-      },
-      {
-        "CFBundleTypeRole" : "Editor",
-        "CFBundleURLSchemes" : [
-          "tbopen23569910"
-        ]
-      },
-      {
-        "CFBundleTypeRole" : "Editor",
-        "CFBundleURLName" : "dingtalk",
-        "CFBundleURLSchemes" : [
-          "dingoatrgzoa7vpvladpt3"
-        ]
-      },
-      {
-        "CFBundleTypeRole" : "Editor",
-        "CFBundleURLName" : "youkuShare",
-        "CFBundleURLSchemes" : [
-          "youkuShare"
-        ]
-      },
-      {
-        "CFBundleTypeRole" : "Editor",
-        "CFBundleURLName" : "momoShare",
-        "CFBundleURLSchemes" : [
-          "mm54976f3969c7de75"
-        ]
-      },
-      {
-        "CFBundleTypeRole" : "Editor",
-        "CFBundleURLIconFile" : "",
-        "CFBundleURLSchemes" : [
-          "ykwbplay"
-        ]
-      },
-      {
-        "CFBundleTypeRole" : "Editor",
-        "CFBundleURLName" : "UT",
-        "CFBundleURLSchemes" : [
-          "ut.23569910"
-        ]
-      },
-      {
-        "CFBundleTypeRole" : "Editor",
-        "CFBundleURLName" : "debugconfig",
-        "CFBundleURLSchemes" : [
-          "ykdebug"
-        ]
-      },
-      {
-        "CFBundleTypeRole" : "Editor",
-        "CFBundleURLSchemes" : [
-          "pspYouKuAuth"
-        ]
-      },
-      {
-        "CFBundleTypeRole" : "Editor",
-        "CFBundleURLSchemes" : [
-          "prefs"
-        ]
-      },
-      {
-        "CFBundleTypeRole" : "Editor",
-        "CFBundleURLSchemes" : [
-          "youkuad"
-        ]
-      },
-      {
-        "CFBundleTypeRole" : "Editor",
-        "CFBundleURLSchemes" : [
-          "QQ00030D44"
-        ]
-      },
-      {
-        "CFBundleTypeRole" : "Editor",
-        "CFBundleURLName" : "alipay",
-        "CFBundleURLSchemes" : [
-          "ap2015072300184094"
-        ]
-      }
-    ],
-    "Path" : "\/private\/var\/containers\/Bundle\/Application\/0AA1196F-E697-42E8-99E3-375DFF5EF989\/Youkui4Phone.app",
-    "Entitlements" : {
-      "keychain-access-groups" : [
-        "3VP5QF6ZZM.com.youku.YouKu"
-      ],
-      "com.apple.developer.pass-type-identifiers" : [
-        "4S68FLC2TS.*"
-      ],
-      "com.apple.developer.team-identifier" : "4S68FLC2TS",
-      "com.apple.developer.associated-domains" : [
-        "applinks:link-jump.youku.com",
-        "applinks:acz-jump.youku.com",
-        "applinks:acz.youku.com",
-        "applinks:m.youku.com",
-        "applinks:v.youku.com"
-      ],
-      "application-identifier" : "3VP5QF6ZZM.com.youku.YouKu",
-      "com.apple.security.application-groups" : [
-        "group.com.youku.YouKu"
-      ],
-      "aps-environment" : "production"
-    },
-    "UIDeviceFamily" : [
-      1
-    ],
-    "CFBundleShortVersionString" : "7.2.5"
+    "CFBundleShortVersionString" : "7.2.0"
   }
 }

@@ -136,8 +136,8 @@
           <table class="" style="width:550px;height:410px">
               <thead>
               <tr>
-                  <th style="width: 8%">&nbsp;&nbsp;ID</th>
-                  <th style="width: 7%">App Name</th>
+                  <th style="width: 8%">&nbsp;&nbsp;App Name</th>
+                  <th style="width: 7%">App ID</th>
                   <th style="width: 10%">Flags</th>
                   <th style="width: 12%">Action</th>
                   <th style="width: 13%">Action2</th>
@@ -155,8 +155,8 @@
                       <td>{{ info['flags'] | safe }}</td>
 
                       {% if appId in sysapps %}
-                          <td><a class="h4" onclick="" href="javascript:;" data-toggle="tooltip"
-                                 title="System App! Cannot delete">&otimes;</a></td>
+                          <td><a class="h4 text-danger" onclick="" href="javascript:;" data-toggle="tooltip"
+                                 title="System App! Cannot delete">Uninstall</a></td>
                       {%  else %}
                           <td><a class="h4 text-danger" onclick="delete_app('{{ appId }}', this)" href="javascript:;" data-toggle="tooltip"
                                  title="Delete app">Uninstall</a></td>
