@@ -95,11 +95,14 @@ def login():
         curr_table = db.load_table(table_name)
         print(curr_table)
         employee = curr_table.find_one(username=username)
-        emp_username = employee["username"]
-        emp_password = employee["password"]
-        if(emp_password == password):
-            print("access granted")
-            return jsonify({'loggedin' : True})
+        if(employee):
+            emp_username = employee["username"]
+            emp_password = employee["password"]
+            if(emp_password == password):
+                print("access granted")
+                return jsonify({'loggedin' : True})
+            else:
+                return jsonify({'loggedin' : False})
         else:
             return jsonify({'loggedin' : False})
 

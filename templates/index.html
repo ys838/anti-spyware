@@ -65,7 +65,8 @@
     <br><p></p>
     <div style="font-size:14px">
     <input type="checkbox" id="remember">&nbsp;Remember Me</div><br>
-  <a id="signin" class='button' onclick=myFunc()>SIGN IN</a>
+    <div id="loginerror" style="display:none;text-align:center;color:red">Invalid credentials. Try again!</div>
+  <a id="signin" class='button'>SIGN IN</a>
 
 
   <br><br>
@@ -81,43 +82,41 @@
 </div>
 
 <script type="text/javascript">
-function myFunc(){
-  // alert("YES, It Works...!!!");
-  var username = document.getElementById("username").value;
-  var pwd = document.getElementById("pwd").value;
-  var link = document.getElementById("signin");
-  if (username == ""){
-    alert("Please enter your Username.");
-  }
-  else if (pwd == ""){
-    alert("Please enter your Password.");
-  }
-  else if ((username == "") && (pwd == "")){
-    alert("Please enter your Username and Password.");
-  }
-  else{
-    // link.setAttribute(“href”, “/mode”);
-    $.ajax({
-	        url: "/login",
-	        type: "POST",
-	        data: JSON.stringify({"username": username, "password": pwd}),
-	        contentType: "application/json",
-	        dataType: "json",
-	        success: function (res) {
-            if (res.loggedin){
-              // alert("here")
-              window.location.href = "/mode";
-            }
-	           // console.log("success");
+$('#signin').click( function() {
+var username = document.getElementById("username").value;
+var pwd = document.getElementById("pwd").value;
+var link = document.getElementById("signin");
+if (username == ""){
+  alert("Please enter your Username.");
+}
+else if (pwd == ""){
+  alert("Please enter your Password.");
+}
+else if ((username == "") && (pwd == "")){
+  alert("Please enter your Username and Password.");
+}
+else{
+  $.ajax({
+        url: "/login",
+        type: "POST",
+        data: JSON.stringify({"username": username, "password": pwd}),
+        contentType: "application/json",
+        dataType: "json",
+        success: function (res) {
+          if (res.loggedin){
+            alert("here")
+            window.location.href = "/mode";
+          }
+          else{
+            $("#loginerror").show()
+          }
+           // console.log("success");
 
-	            // getInputs(id);
-	        },
-	        error: function (){
-	            alert("Wrong username or password!");
-	        }
-    	});
+            // getInputs(id);
+        }
+    });
 }
-}
+});
 </script>
 
 </body>

@@ -4,14 +4,61 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel=stylesheet type=text/css 
+        <link rel=stylesheet type=text/css
               href="{{ url_for('static', filename='bootstrap.min.css') }}">
-        <link rel=stylesheet type=text/css 
+        <link rel=stylesheet type=text/css
               href="{{ url_for('static', filename='style.css') }}?234">
         <script src="{{ url_for('static', filename='jquery-3.3.1.min.js') }}"></script>
         <script src="{{ url_for('static', filename='bootstrap.min.js') }}"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Reem+Kufi" rel="stylesheet">
+
+
+        <style>
+        div.hh {
+          background-color: #572C8C;
+          top: 0px;
+          position:fixed;
+          width: 100%;
+          z-index:100
+          }
+
+          img {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;}
+
+          a,div{font-family:'Reem Kufi', sans-serif; font-size:20px}
+
+          div.container{
+            position:fixed;
+            top:150px;
+          }
+
+          a {font-size: 16px;}
+          </style>
+
     </head>
-    <body class=container">
+    <body>
+
+      <div class="hh">
+        <div class="row">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-3">
+        <h1 style="color: #F2F2F2">Anti-Spyware</h1></div><div class="col-lg-8"></div>
+        </div>
+        <div class="row" style="height:30px"></div>
+        <div class="row">
+          <div class="col-lg-7"></div>
+          <div class="col-lg-1">
+          <a href="/" style="font-size:20px;color:#F2F2F2">Home</a></div>
+          <div class="col-lg-1"><a href="https://www1.nyc.gov/nychope/site/page/resources" style="font-size:20px;color:#F2F2F2">NYCHope</a></div>
+          <div class="col-lg-1"><a style="font-size:20px;color:#F2F2F2">&nbsp;&nbsp;&nbsp;&nbsp;About</a></div>
+          <div class="col-lg-1"><a style="font-size:20px;color:#F2F2F2">Contact</a></div>
+          <div class="col-lg-1"><a style="font-size:20px;color:#F2F2F2">FAQ</a></div>
+      </div>
+      </div>
+
         <div class="container">
             <h2>{{ app.title|safe }} </h2>
             <div class="container form-group">
