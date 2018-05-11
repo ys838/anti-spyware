@@ -30,6 +30,8 @@
 
           a,div{font-family:'Reem Kufi', sans-serif; font-size:20px;color:#040E3F;}
 
+          h3,h4{text-align:center;}
+
           div.container{
             position:fixed;
             top:150px;
@@ -67,9 +69,9 @@
 
           <div class="" style="width:550px;height:378px; overflow:scroll;position:absolute">
             <h3>{{ app.title|safe }} </h3>
-            <table class="table table-bordered">
-                <tbody>
-  <tr><td>AppId</td><td><code>{{ app.appId }}</code></td></tr>
+            <table class="" style="text-align:center;width:550px">
+                <tbody style="color:#040E3F;font:20px">
+  <tr><td>App ID</td><td>{{ app.appId }}</td></tr>
   <tr><td>Developer</td> <td><i>{{ app.developer }}</i> </td></tr>
   <tr><td>Website</td> <td>{{ app.website }} </td></tr>
                     {% for k, v in info.items() %}
@@ -78,6 +80,14 @@
                 </tbody>
             </table>
 
+            <h4>Number of permissions: {{ app.permissions| length }}</h4>
+            <div style="text-align:center">
+                        <ul class="list-group">
+                            {% for perm in app.permissions %}
+                            <li class="code">{{ perm }}</li>
+                            {% endfor %}
+        		</ul>
+</div>
           </div>
 
 
@@ -93,22 +103,7 @@
         </div>
 
         <!-- <div class="">
-            <h2>{{ app.title|safe }} </h2>
-            <div class="">
-                <table class="table table-bordered">
-                    <tbody>
-			<tr><td>AppId</td><td><code>{{ app.appId }}</code></td></tr>
-			<tr><td>Developer</td> <td><i>{{ app.developer }}</i> </td></tr>
-			<tr><td>Website</td> <td>{{ app.website }} </td></tr>
-                        {% for k, v in info.items() %}
-			<tr><td>{{ k }}</td> <td>{{ v }} </td></tr>
-                        {% endfor %}
-                    </tbody>
-                </table>
-		<label class="btn btn-danger">
-		    <button type="button" class="btn btn-danger"
-			    onclick='' disabled>Delete</button>
-		</label>
+
             </div>
 
             <div class="jumbotron" style="padding: 1em">
