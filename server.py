@@ -94,7 +94,7 @@ def login():
         table_name = "employee"
         curr_table = db.load_table(table_name)
         print(curr_table)
-        employee = curr_table.find_one(username='anmol')
+        employee = curr_table.find_one(username=username)
         emp_username = employee["username"]
         emp_password = employee["password"]
         if(emp_password == password):

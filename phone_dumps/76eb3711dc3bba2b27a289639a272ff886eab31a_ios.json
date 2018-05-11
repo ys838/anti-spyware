@@ -1102,7 +1102,7 @@
     "IsUpgradeable" : true
   },
   "xiaozhu.com.XZTenant" : {
-    "Container" : "\/private\/var\/mobile\/Containers\/Data\/Application\/5691B5A1-67DC-4542-BD73-1779CE1EDD4B",
+    "Container" : "\/private\/var\/mobile\/Containers\/Data\/Application\/12A37C35-6D26-43E9-A2CF-4CD1C2DAA35D",
     "CFBundleIdentifier" : "xiaozhu.com.XZTenant",
     "SignerIdentity" : "Apple iPhone OS Application Signing",
     "ApplicationType" : "User",
@@ -1198,7 +1198,7 @@
         ]
       }
     ],
-    "Path" : "\/private\/var\/containers\/Bundle\/Application\/37C4E2C2-46BC-425E-9E30-2BEC4A8F33D1\/XZTenant.app",
+    "Path" : "\/private\/var\/containers\/Bundle\/Application\/0BB67F43-E0D1-4383-845D-A8D6012E8E38\/XZTenant.app",
     "Entitlements" : {
       "keychain-access-groups" : [
         "L6VZ2CF398.xiaozhu.com.XZTenant"
@@ -1211,7 +1211,7 @@
     "UIDeviceFamily" : [
       1
     ],
-    "CFBundleShortVersionString" : "4.10.3"
+    "CFBundleShortVersionString" : "4.11.0"
   },
   "com.apple.reminders" : {
     "Container" : "\/private\/var\/mobile\/Containers\/Data\/Application\/6724DFCB-6C77-4856-B4E0-C97A3450E17A",
@@ -7259,59 +7259,6 @@
     ],
     "CFBundleShortVersionString" : "2.12.5"
   },
-  "com.google.chrome.ios" : {
-    "Container" : "\/private\/var\/mobile\/Containers\/Data\/Application\/9CE9D685-8A0E-4A3F-8237-0A5A9AD39490",
-    "CFBundleIdentifier" : "com.google.chrome.ios",
-    "SignerIdentity" : "Apple iPhone OS Application Signing",
-    "ApplicationType" : "User",
-    "ApplicationDSID" : 413717755,
-    "CFBundleName" : "Chrome",
-    "CFBundleExecutable" : "Chrome",
-    "IsUpgradeable" : true,
-    "UISupportedInterfaceOrientations" : [
-      "UIInterfaceOrientationPortrait",
-      "UIInterfaceOrientationLandscapeLeft",
-      "UIInterfaceOrientationLandscapeRight"
-    ],
-    "CFBundleDisplayName" : "Chrome",
-    "MinimumOSVersion" : "10.0",
-    "CFBundleSupportedPlatforms" : [
-      "iPhoneOS"
-    ],
-    "CFBundleURLTypes" : [
-      {
-        "CFBundleURLName" : "com.google.chrome.ios",
-        "CFBundleURLSchemes" : [
-          "googlechrome",
-          "googlechromes",
-          "googlechrome-x-callback",
-          "googlechrome-stable",
-          "com.google.sso.chrome.stable"
-        ]
-      }
-    ],
-    "Path" : "\/private\/var\/containers\/Bundle\/Application\/1B885502-B0EC-4323-A51D-702DD90ED5FE\/stable.app",
-    "Entitlements" : {
-      "keychain-access-groups" : [
-        "EQHXZ8M8AV.com.google.chrome.ios",
-        "EQHXZ8M8AV.com.google.common.SSO"
-      ],
-      "application-identifier" : "EQHXZ8M8AV.com.google.chrome.ios",
-      "aps-environment" : "production",
-      "com.apple.developer.associated-domains" : [
-        "applinks:goo.gl"
-      ],
-      "com.apple.security.application-groups" : [
-        "group.com.google.chrome",
-        "group.com.google.common"
-      ]
-    },
-    "UIDeviceFamily" : [
-      1,
-      2
-    ],
-    "CFBundleShortVersionString" : "66.3359.122"
-  },
   "com.airbnb.app" : {
     "Container" : "\/private\/var\/mobile\/Containers\/Data\/Application\/52F342C7-765D-4DE0-8794-909095BE7D63",
     "CFBundleIdentifier" : "com.airbnb.app",
@@ -7572,6 +7519,59 @@
       2
     ],
     "CFBundleName" : "Diagnostics"
+  },
+  "com.google.chrome.ios" : {
+    "Container" : "\/private\/var\/mobile\/Containers\/Data\/Application\/9CE9D685-8A0E-4A3F-8237-0A5A9AD39490",
+    "CFBundleIdentifier" : "com.google.chrome.ios",
+    "SignerIdentity" : "Apple iPhone OS Application Signing",
+    "ApplicationType" : "User",
+    "ApplicationDSID" : 413717755,
+    "CFBundleName" : "Chrome",
+    "CFBundleExecutable" : "Chrome",
+    "IsUpgradeable" : true,
+    "UISupportedInterfaceOrientations" : [
+      "UIInterfaceOrientationPortrait",
+      "UIInterfaceOrientationLandscapeLeft",
+      "UIInterfaceOrientationLandscapeRight"
+    ],
+    "CFBundleDisplayName" : "Chrome",
+    "MinimumOSVersion" : "10.0",
+    "CFBundleSupportedPlatforms" : [
+      "iPhoneOS"
+    ],
+    "CFBundleURLTypes" : [
+      {
+        "CFBundleURLName" : "com.google.chrome.ios",
+        "CFBundleURLSchemes" : [
+          "googlechrome",
+          "googlechromes",
+          "googlechrome-x-callback",
+          "googlechrome-stable",
+          "com.google.sso.chrome.stable"
+        ]
+      }
+    ],
+    "Path" : "\/private\/var\/containers\/Bundle\/Application\/1B885502-B0EC-4323-A51D-702DD90ED5FE\/stable.app",
+    "Entitlements" : {
+      "keychain-access-groups" : [
+        "EQHXZ8M8AV.com.google.chrome.ios",
+        "EQHXZ8M8AV.com.google.common.SSO"
+      ],
+      "application-identifier" : "EQHXZ8M8AV.com.google.chrome.ios",
+      "aps-environment" : "production",
+      "com.apple.developer.associated-domains" : [
+        "applinks:goo.gl"
+      ],
+      "com.apple.security.application-groups" : [
+        "group.com.google.chrome",
+        "group.com.google.common"
+      ]
+    },
+    "UIDeviceFamily" : [
+      1,
+      2
+    ],
+    "CFBundleShortVersionString" : "66.3359.122"
   },
   "com.dianping.dpscope" : {
     "Container" : "\/private\/var\/mobile\/Containers\/Data\/Application\/E27D13D5-CB88-433C-A57B-853507538C5A",
@@ -8530,7 +8530,7 @@
     "CFBundleName" : "CompassCalibrationViewService"
   },
   "com.ebates.EbatesMobile" : {
-    "Container" : "\/private\/var\/mobile\/Containers\/Data\/Application\/C5CC4A40-A599-4A72-B35E-7EC76DA3EFC5",
+    "Container" : "\/private\/var\/mobile\/Containers\/Data\/Application\/938841AC-14C3-4406-92F0-4E3CFC1B20C5",
     "CFBundleIdentifier" : "com.ebates.EbatesMobile",
     "SignerIdentity" : "Apple iPhone OS Application Signing",
     "ApplicationType" : "User",
@@ -8613,7 +8613,7 @@
         ]
       }
     ],
-    "Path" : "\/private\/var\/containers\/Bundle\/Application\/73B1DCBB-E998-4115-B751-748163E33C20\/Ebates.app",
+    "Path" : "\/private\/var\/containers\/Bundle\/Application\/DF0C73CD-3579-4C1C-8F4B-1E31FEB53295\/Ebates.app",
     "Entitlements" : {
       "keychain-access-groups" : [
         "8SV35BWXT7.com.ebates.EbatesMobile"
@@ -8638,7 +8638,7 @@
       1,
       2
     ],
-    "CFBundleShortVersionString" : "4.26.0"
+    "CFBundleShortVersionString" : "4.27.0"
   },
   "com.apple.mobileslideshow" : {
     "CFBundleShortVersionString" : "1.0.0",
@@ -10489,7 +10489,7 @@
     "CFBundleName" : "Contacts"
   },
   "com.zhihu.ios" : {
-    "Container" : "\/private\/var\/mobile\/Containers\/Data\/Application\/E27F3815-CC1D-4310-A16C-B725E01C2BC4",
+    "Container" : "\/private\/var\/mobile\/Containers\/Data\/Application\/C481DDC1-5481-4305-AA15-8E7FE134615F",
     "CFBundleIdentifier" : "com.zhihu.ios",
     "SignerIdentity" : "Apple iPhone OS Application Signing",
     "ApplicationType" : "User",
@@ -10575,7 +10575,7 @@
         ]
       }
     ],
-    "Path" : "\/private\/var\/containers\/Bundle\/Application\/194FB42C-AF58-4383-A66E-66ABB0227A7F\/osee2unifiedRelease.app",
+    "Path" : "\/private\/var\/containers\/Bundle\/Application\/C6BF4424-879D-4E26-B18B-0B2570EAF4C5\/osee2unifiedRelease.app",
     "Entitlements" : {
       "keychain-access-groups" : [
         "886PYH8YW5.com.zhihu.ios"
@@ -10615,7 +10615,7 @@
       1,
       2
     ],
-    "CFBundleShortVersionString" : "4.14.0"
+    "CFBundleShortVersionString" : "4.15.0"
   },
   "com.google.Sheets" : {
     "Container" : "\/private\/var\/mobile\/Containers\/Data\/Application\/4F9B8EDB-EC1E-45EE-850B-45F181EE259A",
