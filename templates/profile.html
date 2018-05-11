@@ -64,7 +64,7 @@
 <form name="form" method="post">
     <p style="margin-left:100px;margin-top:50px">First Name:&nbsp;&nbsp;&nbsp;<input type="text" name="firstname" id="first"></p>
     <p style="margin-left:100px;">Last Name:&nbsp;&nbsp;&nbsp;<input type="text" name="lastname" id="last"></p>
-    <p style="margin-left:100px;">Address:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="address" placeholder="Street Name"><p>
+    <p style="margin-left:100px;">Address:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="address" id="address" placeholder="Street Name"><p>
     <p style="margin-left:100px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="address" placeholder="Apt. #"></p>
     <p style="margin-left:100px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="address" placeholder="City Name">
     <!-- <input type="text" name="address" placeholder="State" style="width:50px"> -->
@@ -124,7 +124,7 @@
   <option value="WY">Wyoming</option>
 </select>
 
-    <input type="text" name="address" placeholder="Zip" style="width:65px"></p>
+    <input type="text" name="address" placeholder="Zip" style="width:65px" id="zip"></p>
     <p style="margin-left:100px;">Phone:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="phone" id="phone"></p>
 </form>
 
@@ -146,12 +146,24 @@ function validation(){
   var first = document.getElementById("first").value;
   var last = document.getElementById("last").value;
   var phone = document.getElementById("phone").value;
+  var address = document.getElementById("address").value;
+  var state = document.getElementById("state").value;
+  var zip = document.getElementById("zip").value;
   var link = document.getElementById("sub");
   if (first == ""){
     alert("Please enter your first name.");
   }
   else if (last == ""){
     alert("Please enter your last name.");
+  }
+  else if (address == ""){
+    alert("Please enter your address.");
+  }
+  else if (state == ""){
+    alert("Please select your state.");
+  }
+  else if (zip == ""){
+    alert("Please enter your zip code.");
   }
   else if (phone == ""){
     alert("Please enter your phone number.");
