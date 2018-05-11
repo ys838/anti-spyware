@@ -96,6 +96,7 @@
       a {font-size: 16px;}
 
       td {height:45px}
+      th {color:#040E3F}
 
       </style>
 </head>
@@ -135,15 +136,15 @@
   <div class="box2" style="margin-left:25px;margin-right:auto;width:550px;height:410px;margin-top:25px;position:fixed;background-color:#F2F2F2;">
 
       <!-- <div id="msg" class="alert alert-danger invisible" style="height: 3em">  {{ error }}   </div> -->
-      <div class="" style="width:550px;height:372px; overflow:scroll;position:absolute">
+      <div class="" style="width:550px;height:378px; overflow:scroll;position:absolute">
           <table class="" style="width:550px;height:410px">
               <thead>
               <tr>
                   <th style="width: 18%">&nbsp;&nbsp;App Name</th>
                   <!-- <th style="width: 7%">App ID</th> -->
                   <th style="width: 17%">Flags</th>
-                  <th style="width: 8%">Action</th>
-                  <th style="width: 7%">Action2</th>
+                  <th style="width: 8%"></th>
+                  <th style="width: 7%"></th>
                   <!-- <th style="width: 30%">Notes</th> -->
               </tr>
               </thead>
@@ -175,10 +176,10 @@
 
       </div>
 
-      <div class="h4" style="color:#040E3F;margin-top:380px;margin-left:18px;">
-        <a onclick="">&nbsp;&nbsp;View Report</a>
-        <a>&nbsp;&nbsp;Email</a>
-        <a>&nbsp;&nbsp;Download</a>
+      <div class="h4" style="color:#040E3F;position:fixed;margin-top:380px;margin-left:18px;text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);">
+        <a style="color:#040E3F;" href="" >&nbsp;&nbsp;View Report</a>
+        <a style="color:#040E3F;" href="" onclick="myFunc()">&nbsp;&nbsp;Email</a>
+        <a style="color:#040E3F;" href="">&nbsp;&nbsp;Download</a>
       </div>
 
     </div>
@@ -192,7 +193,12 @@
     </div>
   </div>
 
-
+<script>
+// var email = document.getElementById("email");
+function myFunc(){
+  alert("Email alert");
+}
+</script>
 
 
 
