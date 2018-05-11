@@ -34,7 +34,7 @@
                 $('tr#' + appid).addClass('text-muted');
                 $(e).removeClass('text-danger');
                 $(e).addClass('text-success');
-                $(e).html('&#10003;');
+                $(e).html('Uninstalled.');
                 $(e).prop('onclick', null).off('click');
                 report_success(r);
             }).fail(function(){
@@ -95,6 +95,8 @@
 
       a {font-size: 16px;}
 
+      td {height:45px}
+
       </style>
 </head>
 
@@ -137,11 +139,11 @@
           <table class="" style="width:550px;height:410px">
               <thead>
               <tr>
-                  <th style="width: 8%">&nbsp;&nbsp;App Name</th>
-                  <th style="width: 7%">App ID</th>
-                  <th style="width: 10%">Flags</th>
-                  <th style="width: 12%">Action</th>
-                  <th style="width: 13%">Action2</th>
+                  <th style="width: 18%">&nbsp;&nbsp;App Name</th>
+                  <!-- <th style="width: 7%">App ID</th> -->
+                  <th style="width: 17%">Flags</th>
+                  <th style="width: 8%">Action</th>
+                  <th style="width: 7%">Action2</th>
                   <!-- <th style="width: 30%">Notes</th> -->
               </tr>
               </thead>
@@ -150,9 +152,9 @@
                   <tr id="{{ appId.replace('.', '-') }}">
 
                       <td><a href="/details/app/{{ device }}?appId={{ appId }}&serial={{ serial }}" target="_blank">
-                          {{ info['title'] }}</a></td>
-                      <td><a class="{{ info.class_ }} appid" href="https://www.google.com/search?q={{ appId }}"
-                             target="_blank"><code>{{ appId }}</code></a></td>
+                          &nbsp;&nbsp;{{ info['title'] }}</a></td>
+                      <!-- <td><a class="{{ info.class_ }} appid" href="https://www.google.com/search?q={{ appId }}"
+                             target="_blank"><code>{{ appId }}</code></a></td> -->
                       <td>{{ info['flags'] | safe }}</td>
 
                       {% if appId in sysapps %}
@@ -163,7 +165,7 @@
                                  title="Delete app">Uninstall</a></td>
                       {% endif %}
 
-                      <td style="color:#040E3F"><a class="h4" onclick="" href="javascript:;" data-toggle="tooltip"
+                      <td style="color:#040E3F"><a class="h4" onclick="" href="/" data-toggle="tooltip"
                              title="App details" >Details</a></td>
                       <!-- <td><input type="text" placeholder="Notes" class='form-control' name="{{ appId }}" /></td> -->
                   </tr>

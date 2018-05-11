@@ -40,7 +40,7 @@ def app_details(device):
     appid = request.args.get('appId')
     ser = request.args.get('serial')
     d, info = sc.app_details(ser, appid)
-    d = d.to_dict(orient='index').get(0, {})
+    d = d.to_dict(orient='index2').get(0, {})
     d['appId'] = appid
     return render_template(
         'app.html',
@@ -75,7 +75,7 @@ def scan(device):
     # apps['flags'] = apps.flags.apply(blacklist.flag_str)
     return render_template(
         'test.html',
-        apps=apps.to_dict(orient='index2'),
+        apps=apps.to_dict(orient='index'),
         sysapps=set(sc.get_system_apps(serialno=ser)),
         serial=ser,
         device=device,
