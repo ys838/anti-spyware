@@ -19,25 +19,21 @@
     width: 100%;
     z-index:100
     }
-
     img {
     display: block;
     margin-left: auto;
     margin-right: auto;}
-
     /* a,div{font-family:'Reem Kufi', sans-serif;} */
     a,div{font-family:'Reem Kufi', sans-serif; font-size:20px}
-
     div.container{
       position:fixed;
       top:150px;
     }
-
     a {font-size: 16px;}
     </style>
 </head>
 <body>
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   <div class="hh">
     <div class="row">
     <div class="col-lg-1"></div>
@@ -55,7 +51,6 @@
       <div class="col-lg-1"><a style="font-size:20px;color:#F2F2F2">FAQ</a></div>
   </div>
   </div>
-
   <div class="row">
       <div class="col-lg-3"></div>
       <div class="col-lg-6">
@@ -65,8 +60,8 @@
     <p style="margin-left:100px;margin-top:50px">First Name:&nbsp;&nbsp;&nbsp;<input type="text" name="firstname" id="first"></p>
     <p style="margin-left:100px;">Last Name:&nbsp;&nbsp;&nbsp;<input type="text" name="lastname" id="last"></p>
     <p style="margin-left:100px;">Address:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="address" id="address" placeholder="Street Name"><p>
-    <p style="margin-left:100px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="address" placeholder="Apt. #"></p>
-    <p style="margin-left:100px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="address" placeholder="City Name">
+    <p style="margin-left:100px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="aptno" name="address" placeholder="Apt. #"></p>
+    <p style="margin-left:100px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="city"name="address" placeholder="City Name">
     <!-- <input type="text" name="address" placeholder="State" style="width:50px"> -->
 <p style="margin-left:100px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <select name="state" id="state">
@@ -123,75 +118,67 @@
   <option value="WI">Wisconsin</option>
   <option value="WY">Wyoming</option>
 </select>
-
     <input type="text" name="address" placeholder="Zip" style="width:65px" id="zip"></p>
     <p style="margin-left:100px;">Phone:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="phone" id="phone"></p>
 </form>
-
            <div class="col-lg-3"></div>
+           <div id="incerror" style="display:none;margin-left:185px;color:red">Incomplete form </div>
+           <div id="notcreated" style="display:none;margin-left:185px;color:red">Unable to create </div>
            </div>
            <p style="margin-top:450px">
-               <a href='/disclaimer' class='button' style="margin-left:25px">BACK</a>
-               <a id="sub" class='button' style="margin-left:368px" onclick=validation()>SUBMIT</a>
+             <a href='/disclaimer' class='button' style="margin-left:25px">BACK</a>
+             <!-- <a href='' id="sub" class='button' style="margin-left:368px" onclick=validation()>SUBMIT</a> -->
+             <input type="submit" id="sub" value="SUBMIT" style="margin-left:368px" class='button'>
            </p>
            </div>
          </div>
-
-
 </div>
-
 <script type="text/javascript">
-function validation(){
-  // alert("YES, It Works...!!!");
-  var first = document.getElementById("first").value;
-  var last = document.getElementById("last").value;
-  var phone = document.getElementById("phone").value;
-  var address = document.getElementById("address").value;
-  var state = document.getElementById("state").value;
-  var zip = document.getElementById("zip").value;
-  var link = document.getElementById("sub");
-  if (first == ""){
-    alert("Please enter your first name.");
+$('#sub').click( function() {
+    // alert("YES, It Works...!!!");
+    var first = document.getElementById("first").value;
+    var last = document.getElementById("last").value;
+    var name =   first+' '+last
+    var address = document.getElementById("address").value;
+    var city = document.getElementById("city").value;
+    var apt = document.getElementById("aptno").value;
+    var state = document.getElementById("state").value;
+    var fullAddress = apt+" "+address+" "+city+" "+state
+  //  alert(apt+" "+address+" "+city+" "+state)
+    var phone = document.getElementById("phone").value;
+    // var link = document.getElementById("sub");
+    var params = "?name=" + name + "&phone=" + phone + "&address=" + fullAddress ;
+    if (first == ""){
+      $("#incerror").show();
+    }
+    else if (last == ""){
+      $("#incerror").show();
+    }
+    else if (phone == ""){
+      $("#incerror").show();
+    }
+    else{
+      // link.setAttribute("href", "/confirm");
+      $.ajax({
+            url: "/newclient",
+            type: "POST",
+            data: JSON.stringify({"name": name, "phone":phone, "address" : fullAddress,"employee" :"sarah"  }),
+            contentType: "application/json",
+            dataType: "json",
+            success: function (res) {
+              if (res.created){
+                alert("here")
+                window.location.href = "/confirm"+params;
+              }
+              else{
+                $("#notcreated").show()
+              }
+               // console.log("success");
+                // getInputs(id);
+            }
+        });
   }
-  else if (last == ""){
-    alert("Please enter your last name.");
-  }
-  else if (address == ""){
-    alert("Please enter your address.");
-  }
-  else if (state == ""){
-    alert("Please select your state.");
-  }
-  else if (zip == ""){
-    alert("Please enter your zip code.");
-  }
-  else if (phone == ""){
-    alert("Please enter your phone number.");
-  }
-  else{
-    link.setAttribute("href", "/confirm");
-    // $.ajax({
-	  //       url: "/newclient",
-	  //       type: "POST",
-	  //       data: JSON.stringify({"name": first+' '+last, "phone":phone, "address":address}),
-	  //       contentType: "application/json",
-	  //       dataType: "json",
-	  //       success: function (res) {
-    //         if (res.loggedin){
-    //           // alert("here")
-    //           window.location.href = "/confirm";
-    //         }
-	  //          // console.log("success");
-    //
-	  //           // getInputs(id);
-	  //       },
-	  //       error: function (){
-	  //           alert("Wrong username or password!");
-	  //       }
-    // 	});
-}
-}
+});
 </script>
-
 </body>
 </html>

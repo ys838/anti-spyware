@@ -107,25 +107,24 @@ def login():
             return jsonify({'loggedin' : False})
 
 
+
 @FLASK_APP.route("/newclient", methods=["GET", "POST"])
 def new_client():
-    try:
-        if request.method == 'POST':
-            print("inside post")
-            name = request.json['name']
-            address = request.json['address']
-            phone = request.json['phone']
-            employee = request.json['employee']
-            table_name = "client"
-            data = dict(name=name,address=address, phone=phone, employee=employee)
-            curr_table = db.get_table(table_name)
-            print(curr_table)
-            curr_table.insert(data)
-            db.commit()
-        return "Success",200
-    except Exception as ex:
-        print(ex)
-        return "Failed", 401
+    if request.method == 'POST':
+        print("inside post")
+        name = request.json['name']
+        address = request.json['address']
+        phone = request.json['phone']
+        employee = request.json['employee']
+        table_name = "client"
+        data = dict(name=name, address=address, phone=phone, employee=employee)
+        curr_table = db.get_table(table_name)
+        print(curr_table)
+        curr_table.insert(data)
+        db.commit()
+        return jsonify({'created' : True})
+    else:
+        return jsonify({'created' : False})
 
 # gets all the clients that are managed by a particular employee
 @FLASK_APP.route("/getclients", methods=["GET", "POST"])

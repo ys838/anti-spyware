@@ -152,7 +152,7 @@
               <tbody id="applist" class="h-100">
               {% for appId, info in apps.items() %}
                   <tr id="{{ appId.replace('.', '-') }}">
-
+                    
                       <td><a style="color:#040E3F;">
                           &nbsp;&nbsp;{{ info['title'] }}</a></td>
                       <!-- <td><a class="{{ info.class_ }} appid" href="https://www.google.com/search?q={{ appId }}"
@@ -169,6 +169,7 @@
 
                       <td style="color:#040E3F"><a class="h4" onclick="" href="/details/app/{{ device }}?appId={{ appId }}&serial={{ serial }}" data-toggle="tooltip"
                              title="App details" >Details</a></td>
+
                       <!-- <td><input type="text" placeholder="Notes" class='form-control' name="{{ appId }}" /></td> -->
                   </tr>
               {% endfor %}
