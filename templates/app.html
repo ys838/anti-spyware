@@ -28,7 +28,7 @@
           margin-left: auto;
           margin-right: auto;}
 
-          a,div{font-family:'Reem Kufi', sans-serif; font-size:20px}
+          a,div{font-family:'Reem Kufi', sans-serif; font-size:20px;color:#040E3F;}
 
           div.container{
             position:fixed;
@@ -59,9 +59,42 @@
       </div>
       </div>
 
-        <div class="container">
+      <div class="row">
+          <div class="col-lg-3"></div>
+          <div class="col-lg-6">
+        <div class="box" style="width:600px;height:500px;margin-top:150px;position:fixed;background-color:#BDBDBD;">
+        <div class="box2" style="margin-left:25px;margin-right:auto;width:550px;height:410px;margin-top:25px;position:fixed;background-color:#F2F2F2;">
+
+          <div class="" style="width:550px;height:378px; overflow:scroll;position:absolute">
+            <h3>{{ app.title|safe }} </h3>
+            <table class="table table-bordered">
+                <tbody>
+  <tr><td>AppId</td><td><code>{{ app.appId }}</code></td></tr>
+  <tr><td>Developer</td> <td><i>{{ app.developer }}</i> </td></tr>
+  <tr><td>Website</td> <td>{{ app.website }} </td></tr>
+                    {% for k, v in info.items() %}
+  <tr><td>{{ k }}</td> <td>{{ v }} </td></tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+
+          </div>
+
+
+          </div>
+
+          <p style="margin-top:450px">
+            <a href='' class='button' id="backButton" style="margin-left:25px" onclick="javascript:history.go(-1);return false;">BACK</a>
+          </p>
+          </div>
+
+          <div class="col-lg-3"></div>
+          </div>
+        </div>
+
+        <!-- <div class="">
             <h2>{{ app.title|safe }} </h2>
-            <div class="container form-group">
+            <div class="">
                 <table class="table table-bordered">
                     <tbody>
 			<tr><td>AppId</td><td><code>{{ app.appId }}</code></td></tr>
@@ -90,6 +123,13 @@
                     {% endfor %}
 		</ul>
             </div>
-        </div>
+        </div> -->
+
+        <script>
+        function goBack() {
+            window.history.back();
+        }
+        </script>
+
     </body>
 </html>
