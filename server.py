@@ -157,9 +157,9 @@ def disclaimer():
 def profile():
     return render_template('profile.html')
 
-# @FLASK_APP.route("/existing", methods=['GET'])
-# def db():
-#     return render_template('db.html')
+@FLASK_APP.route("/existing", methods=['GET'])
+def existing():
+    return render_template('db.html')
 
 @FLASK_APP.route("/confirm", methods=['GET'])
 def confirm():
