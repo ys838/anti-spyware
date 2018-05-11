@@ -27,6 +27,9 @@
     }
 
     a {font-size: 16px;}
+
+    td,th {text-align:center;color:#040E3F}
+    td {width:50px}
     </style>
 </head>
 <body>
@@ -41,7 +44,7 @@
   <div class="row">
     <div class="col-lg-7"></div>
     <div class="col-lg-1">
-    <a href="index.html" style="font-size:20px;color:#F2F2F2">Home</a></div>
+    <a href="／" style="font-size:20px;color:#F2F2F2">Home</a></div>
     <div class="col-lg-1"><a href="https://www1.nyc.gov/nychope/site/page/resources" style="font-size:20px;color:#F2F2F2">NYCHope</a></div>
     <div class="col-lg-1"><a href="https://drive.google.com/open?id=1xdi7ogAViLichPw_92Y9ulC3MqfvDQoN" style="font-size:20px;color:#F2F2F2">&nbsp;&nbsp;&nbsp;&nbsp;About</a></div>
     <div class="col-lg-1"><a style="font-size:20px;color:#F2F2F2">Contact</a></div>
@@ -59,10 +62,42 @@
   <div class="col-lg-6">
 <div class="box" style="width:600px;height:500px;margin-top:150px;position:fixed;background-color:#BDBDBD;">
 <div class="box2" style="margin-left:25px;margin-right:auto;width:550px;height:410px;margin-top:25px;position:fixed;background-color:#F2F2F2;">
-<p style="margin-left:50px;margin-top:50px;font-size:18px;color:#040E3F">
-<a href='/confirm'>Nishseth, Adsuan</a>
-<br>
-</p>
+
+  <table style="width:550px;margin-top:20px;text-align:center;">
+      <thead>
+      <tr>
+          <th>&nbsp;&nbsp;Client ID</th>
+          <!-- <th style="width: 7%">App ID</th> -->
+          <th>Client Name</th>
+          <th># of Scans</th>
+          <th>View History</th>
+      </tr>
+      </thead>
+      <tbody id="applist" style="color:#040E3F">
+
+          <tr>
+
+              <td><a style="color:#040E3F;">
+                  &nbsp;&nbsp;001</a></td>
+              <td>Nishseth, Adsuan</td>
+              <td>1</td>
+              <td><a href='/confirm' style="color:#040E3F">Nishseth, Adsuan</a></td>
+
+              <!-- <td><input type="text" placeholder="Notes" class='form-control' name="{{ appId }}" /></td> -->
+          </tr>
+
+      </tbody>
+  </table>
+
+<!-- <table style="text-align:center;width:550px">
+    <tbody style="color:#040E3F;font:20px">
+<tc><td>Client ID</td><td>001</td></tc>
+<tc><td>Client Name</td> <td>Nishseth, Adsuan</td></tc>
+<tc><td># of Scans</td> <td>1</td></tc>
+    </tbody>
+</table> -->
+
+
 </div>
 <p style="margin-top:450px">
   <a href='/mode' class='button' style="margin-left:25px">BACK</a>
