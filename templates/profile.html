@@ -61,8 +61,9 @@
       <div class="col-lg-6">
     <div class="box" style="width:600px;height:500px;margin-top:150px;position:fixed;background-color:#BDBDBD;">
     <div class="box2" style="margin-left:25px;margin-right:auto;width:550px;height:410px;margin-top:25px;position:fixed;background-color:#F2F2F2;">
-    <p style="margin-left:100px;margin-top:50px">First Name:&nbsp;&nbsp;&nbsp;<input type="text" name="firstname"></p>
-    <p style="margin-left:100px;">Last Name:&nbsp;&nbsp;&nbsp;<input type="text" name="firstname"></p>
+<form name="form" method="post">
+    <p style="margin-left:100px;margin-top:50px">First Name:&nbsp;&nbsp;&nbsp;<input type="text" name="firstname" id="first"></p>
+    <p style="margin-left:100px;">Last Name:&nbsp;&nbsp;&nbsp;<input type="text" name="lastname" id="last"></p>
     <p style="margin-left:100px;">Address:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="address" placeholder="Street Name"><p>
     <p style="margin-left:100px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="address" placeholder="Apt. #"></p>
     <p style="margin-left:100px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="address" placeholder="City Name">
@@ -124,38 +125,61 @@
 </select>
 
     <input type="text" name="address" placeholder="Zip" style="width:65px"></p>
-    <p style="margin-left:100px;">Phone:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="phone"></p>
-
+    <p style="margin-left:100px;">Phone:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="phone" id="phone"></p>
+</form>
 
            <div class="col-lg-3"></div>
            </div>
            <p style="margin-top:450px">
                <a href='/disclaimer' class='button' style="margin-left:25px">BACK</a>
-               <a href='/confirm' class='button' style="margin-left:368px">SUBMIT</a>
+               <a href='' id="sub" class='button' style="margin-left:368px" onclick=validation()>SUBMIT</a>
            </p>
            </div>
          </div>
 
-<!-- <div class="container">
-
-    <div style="text-align:center">
-    <form action="confirm.html">
-    First Name:
-    <input type="text" name="firstname"><br>
-    Last Name:&nbsp;&nbsp;&nbsp;
-    <input type="text" name="lastname"><br>
-   Address:
-    <input type="text" name="address"><br>
-    Phone:
-    <input type="text" name="lastname">
-    <br><br>
-
-    <a href='disclaimer.html' class='button'>BACK</a>
-    <a href='confirm.html' class='button'>CONTINUE</a>
 
 </div>
-</div> -->
-</div>
+
+<script type="text/javascript">
+function validation(){
+  // alert("YES, It Works...!!!");
+  var first = document.getElementById("first").value;
+  var last = document.getElementById("last").value;
+  var phone = document.getElementById("phone").value;
+  var link = document.getElementById("sub");
+  if (first == ""){
+    alert("Please enter your first name.");
+  }
+  else if (last == ""){
+    alert("Please enter your last name.");
+  }
+  else if (phone == ""){
+    alert("Please enter your phone number.");
+  }
+  else{
+    link.setAttribute("href", "/confirm");
+    // $.ajax({
+	  //       url: "/newclient",
+	  //       type: "POST",
+	  //       data: JSON.stringify({"firstname": first, "lastname": last}),
+	  //       contentType: "application/json",
+	  //       dataType: "json",
+	  //       success: function (res) {
+    //         if (res.loggedin){
+    //           // alert("here")
+    //           window.location.href = "/confirm";
+    //         }
+	  //          // console.log("success");
+    //
+	  //           // getInputs(id);
+	  //       },
+	  //       error: function (){
+	  //           alert("Wrong username or password!");
+	  //       }
+    // 	});
+}
+}
+</script>
 
 </body>
 </html>

@@ -11,6 +11,8 @@
   <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
   <link href="https://fonts.googleapis.com/css?family=Reem+Kufi" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
   <style>
   div.hh {
     background-color: #572C8C;
@@ -31,7 +33,6 @@
     </style>
 </head>
 <body>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 
 <div class="hh">
   <div class="row">
@@ -96,28 +97,30 @@ function myFunc(){
     alert("Please enter your Username and Password.");
   }
   else{
-    // link.setAttribute(“href”, “/mode”);
+    // link.setAttribute("href", "/mode");
+    var fd = new FormData();
+    fd.append('username',username)
+    fd.append('password',pwd)
+    // for (var value of fd.values()) {
+    // console.dir(value);
     $.ajax({
-	        url: "/login",
-	        type: "POST",
-	        data: JSON.stringify({"username": username, "password": pwd}),
-	        contentType: "application/json",
-	        dataType: "json",
-	        success: function (res) {
-            if (res.loggedin){
-              // alert("here")
-              window.location.href = "/mode";
-            }
-	           // console.log("success");
+            url: "/login",
+            type: "POST",
+            data: fd,
+            success: function () {
+               // console.log(“success”);
 
-	            // getInputs(id);
-	        },
-	        error: function (){
-	            alert("Wrong username or password!");
-	        }
-    	});
+                // getInputs(id);
+                console.log("success")
+            },
+            error: function (){
+              console.log("FAILLLLL")
+               // alert(“Your account was not properly created. Please, try signing up again.“);
+            }
+  })
 }
 }
+
 </script>
 
 </body>
