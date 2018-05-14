@@ -80,6 +80,11 @@
                 </tbody>
             </table>
 
+            <div class="jumbotron" style="padding: 1em">
+                <span style="margin-bottom: 2em; display:block"><mark><b>{{ app.summary|safe }}</b></mark></span>
+                {{ app.descriptionHTML|safe }}
+            </div>
+
             <h4>Number of permissions: {{ app.permissions| length }}</h4>
             <div style="text-align:center">
                         <ul class="list-group">
